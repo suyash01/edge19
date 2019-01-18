@@ -1,0 +1,73 @@
+#timer{
+  color: white;
+  text-align: center;
+  font-size: 4vh;
+  margin-top: 2rem;
+}
+
+p {
+  color: #fff;
+  font-weight: bold;
+  margin-left: 2vw;
+}
+
+footer {
+  text-align: center;
+
+  p:hover {
+    color: #ccc;
+  }
+
+  #social {
+  
+    p {
+      display: inline;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px){
+  #timer {
+    font-size: 6vh;
+    margin-top: 0;
+  }
+
+  .buffer {
+    height: 69vh;
+  }
+
+  p {
+    display: inline;
+  }
+
+  footer {
+    text-align: left;
+    margin-top: 5vh;
+    padding: 0 5vw;
+  }
+  
+  #social {
+    float: right;
+  
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+#fb:hover{
+  color: #4867aa;
+}
+
+#tweet:hover{
+  color: #1ea1f2;
+}
+
+#insta:hover{
+  color: #d73774;
+}
+
+#yt:hover{
+  color: #ff0000;
+}

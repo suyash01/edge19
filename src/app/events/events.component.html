@@ -1,0 +1,12 @@
+<div id="container">
+  <a><img src="/assets/home/events.svg" class="icon-center" alt="Edge"></a>
+  <div id="icons">
+    <div *ngFor="let item of items">
+      <div class="icon {{item.class}}">
+        <a (click)="onEventClick(item.id)">
+          <app-icon [icon]="item.name" [name]="item.caption"></app-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

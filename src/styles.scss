@@ -1,0 +1,352 @@
+/* You can add global styles to this file, and also import other style files */
+//$dialog-position-top: 12vh;
+
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+@import "~ngx-smart-modal/ngx-smart-modal.scss";
+
+*{
+  font-family: 'Megrim';
+}
+
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon-center {
+  display: none;
+}
+
+.icon {
+  width: 20vh;
+  height: 20vh;
+  margin-top: 2rem;
+}
+
+#icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .icon-center {
+    display: block;
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    top: 35vh;
+    left: calc(50vw - 15vh);
+  }
+
+  .icon {
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    top: 42.5vh;
+    margin-top: 0;
+    left: calc(50vw - 7.5vh);
+  }
+
+  #icons {
+    margin-top: 0;
+  }
+  
+  @mixin deg($d) {
+    transform: rotate($d) translate(50vh) rotate(-$d);
+  }
+  
+  .deg0 {
+    @include deg(-0deg);
+  }
+
+  .deg5 {
+    @include deg(-5deg);
+  }
+
+  .deg10 {
+    @include deg(-10deg);
+  }
+  
+  .deg15 {
+    @include deg(-15deg);
+  }
+
+  .deg20 {
+    @include deg(-20deg);
+  }
+
+  .deg25 {
+    @include deg(-25deg);
+  }
+  
+  .deg30 {
+    @include deg(-30deg);
+  }
+
+  .deg35 {
+    @include deg(-35deg);
+  }
+
+  .deg40 {
+    @include deg(-40deg);
+  }
+  
+  .deg45 {
+    @include deg(-45deg);
+  }
+
+  .deg50 {
+    @include deg(-50deg);
+  }
+
+  .deg55 {
+    @include deg(-55deg);
+  }
+
+  .deg60 {
+    @include deg(-60deg);
+  }
+
+  .deg65 {
+    @include deg(-65deg);
+  }
+
+  .deg70 {
+    @include deg(-70deg);
+  }
+
+  .deg75 {
+    @include deg(-75deg);
+  }
+
+  .deg80 {
+    @include deg(-80deg);
+  }
+
+  .deg85 {
+    @include deg(-85deg);
+  }
+
+  .deg90 {
+    @include deg(-90deg);
+  }
+
+  .deg95 {
+    @include deg(-95deg);
+  }
+
+  .deg100 {
+    @include deg(-100deg);
+  }
+
+  .deg105 {
+    @include deg(-105deg);
+  }
+
+  .deg110 {
+    @include deg(-110deg);
+  }
+
+  .deg115 {
+    @include deg(-115deg);
+  }
+  
+  .deg120 {
+    @include deg(-120deg);
+  }
+
+  .deg125 {
+    @include deg(-125deg);
+  }
+
+  .deg130 {
+    @include deg(-130deg);
+  }
+  
+  .deg135 {
+    @include deg(-135deg);
+  }
+
+  .deg140 {
+    @include deg(-140deg);
+  }
+
+  .deg145 {
+    @include deg(-145deg);
+  }
+  
+  .deg150 {
+    @include deg(-150deg);
+  }
+
+  .deg155 {
+    @include deg(-155deg);
+  }
+
+  .deg160 {
+    @include deg(-160deg);
+  }
+  
+  .deg165 {
+    @include deg(-165deg);
+  }
+
+  .deg170 {
+    @include deg(-170deg);
+  }
+
+  .deg175 {
+    @include deg(-175deg);
+  }
+  
+  .deg180 {
+    @include deg(-180deg);
+  }
+
+  .deg185 {
+    @include deg(-185deg);
+  }
+
+  .deg190 {
+    @include deg(-190deg);
+  }
+  
+  .deg195 {
+    @include deg(-195deg);
+  }
+
+  .deg200 {
+    @include deg(-200deg);
+  }
+
+  .deg205 {
+    @include deg(-205deg);
+  }
+
+  .deg210 {
+    @include deg(-210deg);
+  }
+
+  .deg215 {
+    @include deg(-215deg);
+  }
+  
+  .deg220 {
+    @include deg(-220deg);
+  }
+  
+  .deg225 {
+    @include deg(-225deg);
+  }
+
+  .deg230 {
+    @include deg(-230deg);
+  }
+
+  .deg235 {
+    @include deg(-235deg);
+  }
+  
+  .deg240 {
+    @include deg(-240deg);
+  }
+
+  .deg245 {
+    @include deg(-245deg);
+  }
+
+  .deg250 {
+    @include deg(-250deg);
+  }
+
+  .deg255 {
+    @include deg(-255deg);
+  }
+
+  .deg260 {
+    @include deg(-260deg);
+  }
+
+  .deg265 {
+    @include deg(-265deg);
+  }
+
+  .deg270 {
+    @include deg(-270deg);
+  }
+
+  .deg275 {
+    @include deg(-275deg);
+  }
+
+  .deg280 {
+    @include deg(-280deg);
+  }
+
+  .deg285 {
+    @include deg(-285deg);
+  }
+
+  .deg290 {
+    @include deg(-290deg);
+  }
+
+  .deg295 {
+    @include deg(-295deg);
+  }
+
+  .deg300 {
+    @include deg(-300deg);
+  }
+
+  .deg305 {
+    @include deg(-305deg);
+  }
+
+  .deg310 {
+    @include deg(-310deg);
+  }
+  
+  .deg315 {
+    @include deg(-315deg);
+  }
+  
+  .deg320 {
+    @include deg(-320deg);
+  }
+
+  .deg325 {
+    @include deg(-325deg);
+  }
+
+  .deg330 {
+    @include deg(-330deg);
+  }
+
+  .deg335 {
+    @include deg(-335deg);
+  }
+
+  .deg340 {
+    @include deg(-340deg);
+  }
+  
+  .deg345 {
+    @include deg(-345deg);
+  }
+
+  .deg350 {
+    @include deg(-340deg);
+  }
+
+  .deg355 {
+    @include deg(-355deg);
+  }
+}

@@ -1,0 +1,12 @@
+<div id="container">
+  <a><img src="/assets/events/{{details['icon']}}" class="icon-center" alt="Edge"></a>
+  <div id="icons">
+    <div *ngFor="let item of details['subEvents']">
+      <div class="icon {{item.class}}">
+        <a (click)="openModal(item.id)">
+          <app-icon [icon]="item.icon" [name]="item.name"></app-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

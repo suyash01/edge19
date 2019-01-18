@@ -1,0 +1,61 @@
+@media (min-width: 768px){
+  @mixin deg($d, $r) {
+    transform: rotate($d) translate($r) rotate(-$d);
+  }
+  
+  .deg120 {
+    @include deg(-120deg, 40vh);
+  }
+
+  .deg143 {
+    @include deg(-143deg, 45vh);
+  }
+
+  .deg166 {
+    @include deg(-166deg, 50vh);
+  }
+
+  .deg189 {
+    @include deg(-189deg, 50vh);
+  }
+  
+  .deg212 {
+    @include deg(-212deg, 50vh);
+  }
+
+  .deg235 {
+    @include deg(-235deg, 45vh);
+  }
+
+  .deg258 {
+    @include deg(-258deg, 39.4vh);
+  }
+  
+  .deg282 {
+    @include deg(-281deg, 39.4vh);
+  }
+
+  .deg305 {
+    @include deg(-304deg, 45vh);
+  }
+
+  .deg328 {
+    @include deg(-327deg, 50vh);
+  }
+  
+  .deg351 {
+    @include deg(-350deg, 50vh);
+  }
+
+  .deg14 {
+    @include deg(-13deg, 50vh);
+  }
+
+  .deg37 {
+    @include deg(-36deg, 45vh);
+  }
+
+  .deg60 {
+    @include deg(-59deg, 40vh);
+  }
+}

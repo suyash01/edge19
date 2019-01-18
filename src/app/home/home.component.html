@@ -1,0 +1,35 @@
+<div id="container">
+  <div class="buffer"></div>
+  <img src="/assets/edge-logo.png" class="icon-center" alt="Edge">
+  <div id="icons">
+    <div *ngFor="let item of items">
+      <div class="icon {{item.class}}" *ngIf="item.link">
+        <a [routerLink]="item.link">
+          <app-icon [icon]="item.name" [name]="item.caption"></app-icon>
+        </a>
+      </div>
+      <div class="icon {{item.class}}" *ngIf="!item.link">
+        <a (click)="openModal(item.id)" style="cursor: pointer;">
+          <app-icon [icon]="item.name" [name]="item.caption"></app-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="timer">
+    <countdown [config]="{ stopTime: 1554402600000, clock: ['d', 99, 2, 'h', 24, 2, 'm', 60, 2, 's', 60, 2, 'u', 10, 1] }">$!d!D $!h!H $!m!M $!s!S</countdown>
+  </div>
+  <footer>
+    <p><a (click)="openModal('team')">Team</a></p>
+    <p><a (click)="openModal('sponsors')">Sponsors</a></p>
+    <p><a (click)="openModal('merch')">Merchandise</a></p>
+    <p><a (click)="openModal('reg')">Schedule & Registration</a></p>
+    <p><a (click)="openModal('ca')">Campus Ambassador</a></p>
+    <p><a (click)="openModal('contact')">Contact</a></p>
+    <div id="social">
+      <p><a href="https://www.facebook.com/Gx.Edg/" target="_blank"><fa-icon [icon]="faFacebook"></fa-icon></a></p>
+      <p><a><fa-icon [icon]="faInsta"></fa-icon></a></p>
+      <p><a><fa-icon [icon]="faYT"></fa-icon></a></p>
+      <p><a><fa-icon [icon]="faTwitter"></fa-icon></a></p>
+    </div>
+  </footer>
+</div>
