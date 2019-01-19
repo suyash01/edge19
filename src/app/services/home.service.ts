@@ -31,6 +31,10 @@ export class HomeService {
     desc: `<h1>Schedule & Registration</h1>`
   },
   {
+    id: 'contact',
+    desc: `<h1>Contact</h1>`
+  },
+  {
     id: 'ca',
     desc: `<h1>Campus Ambasador</h1>
           <img src="/assets/ca.jpg" alt="Campus Ambassador" style="max-width: 500px; height: auto; width: 100%">
@@ -57,6 +61,16 @@ export class HomeService {
           <p>Radhika Mohta : +91 9163981049</p>
           <p>Amritaparna Pal : +91 9531733733</p>
           <p>Once you are selected as the CA, we shall notify you via mail.</p>`
+  },
+  {
+    id: 'deeds',
+    desc: `<h1>Edge Deeds</h1>`
+  },
+  {
+    id: 'team',
+    desc: `<h1>Team</h1>
+          <h1>Webmaster</h1>
+          <h1>Designs</h1>`
   }]
 
   constructor() { }
