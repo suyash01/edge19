@@ -36,7 +36,6 @@ export class AppComponent implements OnInit {
 
     this.myParams = {
       particles: {
-        fps_limit: 30,
         number: {
           value: 50,
           density: {
