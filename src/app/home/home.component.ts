@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
 
   items = [
     {name: "home/events.svg", class: "deg30", caption: "Events", link: "/events"},
-    {name: "home/events.svg", class: "deg150", caption: "Mega Events", link: "/mega-events"},
+    {name: "home/mega-event.svg", class: "deg150", caption: "Mega Events", link: "/mega-events"},
     {name: "mega-events/edge-deeds.svg", class: "deg180", caption: "Edge Deeds", id: 'deeds'},
     {name: "home/events.svg", class: "deg0", caption: "Intra", id: 'intra'},
     {name: "home/events.svg", class: "deg210", caption: "Highlights", link: "/highlights"},

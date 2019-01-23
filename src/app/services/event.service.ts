@@ -48,13 +48,448 @@ export class EventService {
   },
   {
     id: 'robotics',
-    icon: '',
+    icon: 'robotics.svg',
     subEvents: [{
       id: 'roborace',
       name: 'Robo Race',
-      icon: '',
-      class: '',
-      desc: ``
+      icon: 'events/robotics/roborace.svg',
+      class: 'deg45',
+      desc: `<h1>Robo Race</h1>
+            <p>Build a bot (wired/wireless) that is capable of traversing the arena manually bypassing the hurdles in its path.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A minimum of 3 members and a maximum of 4 members are allowed per team.</li>
+              <li>The members must bring IDENTITY CARDS of the college.</li>
+              <li>No person should be a member of two teams.</li>
+              <li>No bot can be shared by two teams</li>
+              <li>The participants will be provided with 220 Volts, 50 Hz standard AC supply.</li>
+              <li>Participants themselves will have to arrange for any other power supply required for their robot</li>
+              <li>Team cannot tinker with bots during the run.</li>
+              <li>LEGO kits or its spare parts or pre-made mechanical parts are not allowed</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification</li>
+              <li>Any act of misbehaviour or misconduct will lead to direct disqualification.</li>
+              <li>Any decision of the co-ordinators will be final and binding</li>
+              <li>Bots will start from the point marked as “START” on the arena.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>Maximum allowable dimensions of the bot will be 25cm x 25cm x 25cm with a tolerance of 10%</li>
+              <li>The maximum weight of the bot should not exceed 2 kg.</li>
+              <li>The robot can be powered on-board or off-board.</li>
+              <li>The potential difference between any two electrical points on the bot must not exceed 20 volts throughout the run.</li>
+              <li>Violation of any rule will lead to disqualification.</li>
+              <li>The arena will contain obstacles in the form of sand, gravel, mud, bumpers, stone chips, marble balls, broken glasses etc.</li>
+              <li>The arena will be 10-25 metres in length.</li>
+              <li>The length and constituents of the track may keep varying from round to round.</li>
+              <li>The width of the arena will be approximately 3ft (92 cm).</li>
+              <li>The arena will also include obstacles like cliffs, ramps, bridges, bumps, dips, rotating discs, see-saw, banks and water bodies.</li>
+              <li>The height of the waterbeds will vary between 3 cm to 8 cm.</li>
+              <li>Maximum inclination of the inclined planes will not exceed 45 degrees.</li>
+              <li>All individual arena parameters are measured under a tolerance level of 10%.</li>
+              <li>There may be some typical bypasses for shorter paths and for following the bypasses properly there might or might not be bonus points.</li>
+              <li>If a robot damages the arena, a penalty might be imposed on the teams overall score. The magnitude of the penalty will depend on the amount of damage caused, and will be decided by the coordinators.</li>
+            </ul>
+            <h3>Round 1</h3>
+            <p>BEAT THE CLOCK: the bot has to solely traverse the track from "START" point and complete the arena in maximum 5 minutes. The Track is subdivided into several check points. Any Number of hand-touches can be taken during the run if there is any mishap/toppling. Bot will be placed again at the point of discontinuity. Only 3 hurdles can be skipped and 1 restart will be allowed. Penalty of 20 seconds for each hand-touch while 100 seconds for each skip. There will be penalty of 300 seconds for restart. After 5 min the team will be given points on the basis of number of checkpoints crossed.Selection of teams for next round will be on the basis of time taken and the number of checkpoints crossed.</p>
+            <h3>Round 2</h3>
+            <p>SURVIVAL OF THE FASTEST: For further rounds, a one-on-one event will take place in which two bots will take on each other at a time. Each bot has to try to finish the race first.</p>
+            <h3>Scoring Rules</h3>
+            <ul>
+              <li>BEAT THE CLOCK: SCORE = 1000 – 2 *(Time taken in seconds) – 20 * (no. of hand touch) – 100 * (no. of skips) –50 * (no. of time-outs) – 300 (for restart)</li>
+              <li>SURVIVAL OF THE FASTEST: There is no score system. Whoever reaches the “FINISH” point first, wins the race. However, a team cannot opt for more than 2 TIMEOUTS.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
+    },
+    {
+      id: 'blitzkrieg',
+      name: 'Blitzkrieg',
+      icon: 'events/robotics/blitzkrieg.svg',
+      class: 'deg15',
+      desc: `<h1>Blitzkrieg</h1>
+            <p>Design & construct a manually controlled robot capable of fighting a one-on-one tournament. Think of a robot with sophisticated weapons that can destroy your enemy and make you win.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>Any team can participate in Blitzkrieg consisting of a minimum of 4 participants. These participants can be from same or different institutes.</li>
+              <li>Every team must have a name which must be unique.Geekonix reserves the right to reject entries from any Team whose name it deems inappropriate, offensive or conflicting. Organizers must be notified if a team's name has been changed.</li>
+              <li>Each team must specify their Team Representative (Leader) at the time of registration. All important communications between EDGE and the registered teams will be done through their Team Representative. The Team Representatives must submit valid contact details (phone no., email ID etc.) at the time of registration.</li>
+              <li>There will be three rounds, 4 minutes each. Any team that is not ready at the time specified will be disqualified. The name of your machine must be prominently displayed on the machine.</li>
+              <li>In no case should the arena be damaged by any bot. The competition will be played on a knock-out basis.</li>
+              <li>A bot will be declared 'KNOCKED-OUT' if it is unable to travel a distance of 6 inches in 30 seconds.</li>
+              <li>If no bot immobilizes then winner will be declared on the basis of the points scored.</li>
+              <li>The organizers reserve the rights to change any or all of the above rules as they deem fit. Change in rules, if any will be notified to the registered teams.</li>
+              <li>Violation of any of the above rules will lead to disqualification.</li>
+              <li>Decision of organizers will be final and binding on all.</li>
+              <li>Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing.</li>
+              <li>Special care should be taken to protect the on-board batteries and pneumatics, robot without proper protection will not be allowed to compete.</li>
+              <li>If you have a robot or weapon design that does not fit within the categories set forth in these rules or is in some way ambiguous or borderline, please contact the event organizers. Safe innovation is always encouraged, but surprising the organizers with your brilliant exploitation of a loophole may cause your robot to be disqualified before it even competes.</li>
+              <li>Each event has safety inspections. It is at their sole discretion that your robot is allowed to compete. As a builder you are obligated to disclose all operating principles and potential dangers to the inspection staff.</li>
+              <li>Proper activation and deactivation of robots is critical. Robots must only be activated in the arena, testing areas, or with expressed consent of the event coordinators.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>All weapons must have a safety cover on any sharp edges.</li>
+              <li>All participants have to build and operate robots at their own risk. Combat robotics is inherently dangerous. There is no amount of regulation that can encompass all the dangers involved. Please take care to not hurt yourself or others when building, testing or competing</li>
+              <li>Any kind of activity (repairing, battery handling, pneumatics systems etc.) which may cause damage to the surroundings during the stay of the teams in the competition area should not be carried out without the consent of organizers. Not following this rule may result in disqualification.</li>
+              <li>All the resources provided at the time of competition from the organizers.</li>
+              <li>Once the robots have entered into the arena, no team member can enter into the arena at any point of time. In case if a fight has to be halted in between and some changes have to be done in the arena or condition on the robot(s), it will be done by organizers only.</li>
+              <li>Dimensons and Fabrications : The machine should fit in a box of dimensions 500mm x 500mm x 500mm (l x b x h) at any given point during the match.</li>
+              <li>The external device used to control the machine or any external tank is not included in the size constraint.</li>
+              <li>The machine should not exceed 45 kg + 10% Tolerance in weight including the weight of pneumatic source/tank. In case of wireless robot, if the battery is on-board then the weight should not exceed 55 kg.</li>
+              <li>Power Sources: The machine can be powered electrically only. Use of an IC engine in any form is not allowed.</li>
+              <li>Each team must prepare its own power sources. Only 220V volt AC sources will be provided at the arena, but can only be used in the form of DC voltage. The teams have to bring their own battery eliminators.</li>
+              <li>The voltage difference between any two points in the machine should not be more than 36V DC at any point of time.</li>
+              <li>All connections should be made safe to prevent short circuits and battery fires. Any unsafe circuitry may be asked to be replaced; failure to do so will result in disqualification.</li>
+              <li>Use of damaged, non-leak proof batteries may lead to disqualification.</li>
+              <li>Change of battery will not be allowed during the match.</li>
+              <li>It is suggested to have extra batteries ready and charged up during competition so that on advancing to next level, you don't have to wait or suffer due to uncharged battery.</li>
+              <li>If a team do not show up on allotted slot, they will be disqualified.</li>
+              <li>Mobility : All bots must have clearly visible and controlled mobility mechanism in order to compete.</li>
+              <li>Methods of mobility may include: Rolling (wheels, tracks or the whole robot), Walking (linear actuated legs with no rolling or cam operated motion) & Shuffling (rotational cam operated legs).</li>
+              <li>Jumping and hopping is not allowed</li>
+              <li>Flying (using aerofoil, helium balloons, ornithopters, etc.) is not allowed.</li>
+              <li>Any other method of mobility which leads the robot to lose contact with the ground is not allowed.</li>
+              <li>Robot control requirements: Both wired and wireless remote controls are allowed in the event.</li>
+              <li>All wires coming out of the robot should be bundled as a single unit</li>
+              <li>The wires should be properly protected and insulated.</li>
+              <li>The wire should be sufficiently long so as to remain slack at all time during the competition.</li>
+              <li>In case of wireless remote controls, the remote should have atleast two frequency operations to prevent interference with other team.</li>
+              <li>Teams are recommended to attach a pipe to bot in vertical direction through which wires come out. The length of pipe will not be considered in bot dimension.</li>
+              <li>Weapon Systems: Robots can have any kind of cutters, flippers, saws, lifting devices,spinning hammers etc. as weapons with following exceptions.</li>
+              <ul>
+                <li>Any kind of inflammable liquid / liquid based weapons.</li>
+                <li>Smoke or dust weapons.</li>
+                <li>Flame-based Weapons.</li>
+                <li>Any kind of explosive or interionally ignited solid or potentially ignitable solid.</li>
+                <li>Nets, tape, glue, or any other entanglement device.</li>
+                <li>High power magnets or electromagnets.</li>
+                <li>Radio Jamming, Tasers, Tesla coils, or any other high-voltage device.</li>
+                <li>Tethered or un-tethered projectiles.</li>
+              </ul>
+              <li>Spinning weapons which do not come in contact with the arena at any point of time are allowed.</li>
+              <li>The robot must use non-inflammable and non-corrosive fluids to power pneumatic and hydraulic devices.</li>
+              <li>Maximum pressure in the tank containing pneumatic fluid should not exceed the limit of 10 bars and there should be a provision to check the pressure in the tank.</li>
+              <li>All hydraulic liquids are required to be non-corrosive and your device should be leak proof. The maximum pressure in cylinder should not exceed the rated pressure at any point of time.</li>
+              <li>Participants must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge.</li>
+              <li>You must have a safe way of refilling the system</li>
+              <li>All pneumatic components on board a robot must be securely mounted. Care must be taken while mounting the pressure vessel and armour to ensure that if ruptured it will not escape the robot.</li>
+            </ul>
+            <h3>Scoring Rules</h3>
+            <ul>
+              <li>Points will be awarded, once in a round, if the bot reaches opponent's starting point, which can be referred to as safe zone.</li>
+              <li>Points of the opponent team will be deducted if their bot is pushed into the danger zone (Remaining corners of the arena apart from safe zone).</li>
+              <li>Points will be awarded for pushing the opponent's bot out of the arena.</li>
+              <li>Specific scoring will be updated soon.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
+    },
+    {
+      id: 'liftnlay',
+      name: 'Lift N Lay',
+      icon: 'events/robotics/liftnlay.svg',
+      class: 'deg345',
+      desc: `<h1>Lift 'N' Lay</h1>
+            <p>Build a terrestrial bot that is capable of picking blocks through different hurdles and capable of placing them.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A minimum of 3 members and a maximum of 4 members are allowed per team</li>
+              <li>The members must bring IDENTITY CARDS of the college</li>
+              <li>No person should be a member of two teams.</li>
+              <li>No bot can be shared by two teams.</li>
+              <li>The participants will be provided with 220 Volts, 50 Hz standard AC supply.</li>
+              <li>Participants will have to themselves arrange for any other power supply required for their robot.</li>
+              <li>Teams cannot tinker with their bots during the run</li>
+              <li>LEGO kits or its spare parts or pre-made mechanical parts are not allowed.</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification</li>
+              <li>Any act of misbehavior or misconduct will lead to immediate disqualification of the team</li>
+              <li>The decision of the co-ordinators will be final and binding</li>
+              <li>The bot has to solely traverse through the track picking and placing blocks.</li>
+              <li>The bot will start from the point marked as “START” on the arena and will have to complete the task in maximum 5 minutes.</li>
+              <li>There will be penalty of 300 points for restart.</li>
+              <li>Placing each block at the correct position will fetch each team positive marks and the time remaining (in seconds) will be added as bonus to the final score. Each team is allowed a single restart in which negative points will be given to the team and they can begin again resetting the timer.</li>
+              <li>In case the team finds their robot stuck at some position they can take hand touch. In such a case the bot will be placed in a position (by the co-ordinator) where it can move freely and negative points will be given on each hand touch.</li>
+              <li>Each team will be provided with maximum 2 technical time-outs of 2 minutes; the first one is free while the second one will have a penalty of 100 during which they can repair their bots.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>Maximum allowable dimensions of the bot will be 25cm x 25cm x 25cm with a tolerance of 10%.</li>
+              <li>The maximum weight of the bot should not exceed 2.5 kg.</li>
+              <li>The robot can be powered on-board or off-board</li>
+              <li>The potential difference between any two electrical points on the bot must not exceed 20 volts throughout the run.</li>
+              <li>Violation of any rule will lead to disqualification.</li>
+            </ul>
+            <h3>Scoring Rules</h3>
+            <p>FINAL SCORE: 200*(No. of blocks placed) + 2*(time left in sec) - 30*(no. of hand touches) - 100*(for 2nd time-out) - 300(for restart)</p>
+            <h3>Contact</h3>
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
+    },
+    {
+      id: 'stalker',
+      name: 'Stalker',
+      icon: 'events/robotics/stalker.svg',
+      class: 'deg315',
+      desc: `<h1>Stalker</h1>
+            <p>To build an autonomously controlled robot capable of following a white line on a black surface or black line on white surface.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A team can consist of maximum 4 members.</li>
+              <li>The candidates may or may not be from different colleges.</li>
+              <li>No person can be in two teams of the same event.</li>
+              <li>The members must bring IDENTITY CARDS of the college.</li>
+              <li>No bot can be shared by two teams.</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification.</li>
+              <li>Any act of misbehaviour or misconduct will lead to immediate disqualification of the team.</li>
+              <li>Damaging the path will lead to immediate disqualification.</li>
+              <li>The decision of the co-ordinators will be final and binding.</li>
+              <li>After every reset, the bot will be placed at the last check point but each will lead to a penalty (the timer will not be paused during reset).</li>
+              <li>If a team wants a restart, the bot will be placed at the starting point.</li>
+              <li>The run shall start from a predefined starting zone.</li>
+              <li>The decision of the event coordinator(s) will be final and binding.</li>
+              <li>The maximum time allotted to complete the task is 4 minutes in the prelims and 6 minutes in the finals.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <p>The width of line will be 2.5cm (approx.).</p>
+            <h3>Round 1</h3>
+            <p>A team can have maximum of three resets and one restart.</p>
+            <h3>Round 2</h3>
+            <p>A team can have maximum of five resets and three restarts.</p>
+            <h3>Round 3</h3>
+            <p>A team can have maximum of five resets and three restarts. In this round the arena may contain inclinations and see-saw and the path may also be blocked by cubical blocks which should be avoided by the bot.</p>
+            <h3>Scoring Rules</h3>
+            <ul>
+              <li>20 Points will be awarded for successfully crossing each checkpoint.</li>
+              <li>100 points will be awarded for successfully reaching the end point.</li>
+              <li>150 Points will be awarded for stopping at the end point.</li>
+              <li>Penalty of 20 points will be imposed for each reset.</li>
+              <li>Penalty of 50 points will be imposed for each restart.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Sudhanshu Shivam - 8697892729</p>
+            <p>Sourav Ghosh - 8013174091</p>`
+    },
+    {
+      id: 'jigsaw',
+      name: 'Jigsaw',
+      icon: 'events/robotics/jigsaw.svg',
+      class: 'deg270',
+      desc: `<h1>Jigsaw</h1>
+            <p>To build an autonomously controlled bot which is capable of finding its way through a maze and arriving at the final destination.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A team consist of maximum 4 members</li>
+              <li>The candidates may or may not be from different colleges</li>
+              <li>No person can be in two teams of the same event</li>
+              <li>The members must bring IDENTITY CARDS of the college.</li>
+              <li>No bot can be shared by two teams.</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification.</li>
+              <li>Any act of misbehavior or misconduct will lead to immediate disqualification of the team.</li>
+              <li>Damaging the path will lead to immediate disqualification.</li>
+              <li>The decision of the coordinator(s) will be final and binding.</li>
+              <li>The bot has to stop at the finish point.</li>
+              <li>The maximum time allotted to complete the task is 5 minutes in the prelims and 10 minutes in the finals.</li>
+              <li>If a team wants a restart, the bot will have to start from a predefined starting point with timer reset and a penalty.</li>
+              <li>The decision of the event coordinator(s) will be final and binding.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>The arena will have white surface with black line of width 2.5cm (approx.)</li>
+              <li>Bot dimension must not exceed 25cm*25cm*25cm (tolerance of 10% is accepted for each parameter).</li>
+            </ul>
+            <h3>Round 1</h3>
+            <p>The bot has to move from starting point to finish point in the minimum time. A team can have maximum of three reset and one restart in this round.</p>
+            <h3>Round 2</h3>
+            <p>Once the bot reaches the finish point it will be placed at the starting point again and the bot has to reach the finish point once more using the shortest path possible.In this round five resets and three restarts are allowed.</p>
+            <h3>Scoring Rules</h3>
+            <ul>
+              <li>150 Points will be awarded for reaching the finish point.</li>
+              <li>100 Points will be awarded for stopping at the finish point.</li>
+              <li>Penalty of 20 Points will be imposed for each resets.</li>
+              <li>Penalty of 50 Points will be imposed for each restart.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Sudhanshu Shivam - 8697892729</p>
+            <p>Sourav Ghosh - 8013174091</p>`
+    },
+    {
+      id: 'wallstreet',
+      name: 'Wall Street',
+      icon: 'events/robotics/wallstreet.svg',
+      class: 'deg135',
+      desc: `<h1>Wall Street</h1>
+            <p>Build an autonomous line follower bot based on microcontroller which is capable of following lines, walls (where line may or may not present) and detecting crossroads.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A team can consist of maximum 4 members.</li>
+              <li>The candidates may or may not be from different colleges.</li>
+              <li>No person can be in two teams of the same event.</li>
+              <li>The members must bring IDENTITY CARDS of the college.</li>
+              <li>No bot can be shared by two teams.</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification.</li>
+              <li>Any act of misbehaviour or misconduct will lead to immediate disqualification of the team.</li>
+              <li>Damaging the path will lead to immediate disqualification.</li>
+              <li>The decision of the co-ordinator(s) will be final and binding.</li>
+              <li>The maximum time allotted to complete the task is 4 minutes in the prelims and 5 minutes in the finals.</li>
+              <li>The run will start from a predefined starting point.</li>
+              <li>A team can have maximum of six hand-touches, two restarts, and two timeouts in each round.</li>
+              <li>If a team wants a restart, the bot will be placed at the starting point.</li>
+              <li>After every hand-touch, the bot will be placed on previous check-point.</li>
+              <li>The walls will be present at a distance of 12-15 cm from the path of the robot.</li>
+              <li>Any collision with the wall will be treated as penalty.</li>
+              <li>When the robot follows the wall, the bot has to indicate that by glowing and LED or by sounds buzzer.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>The dimension of the bot should be 25x25x25 cm.</li>
+              <li>The width of line would be 2.5cm approx.</li>
+            </ul>
+            <h3>Round 1</h3>
+            <p>The bot has to follow the line as well as the wall, detect check points and indicate wall.</p>
+            <h3>Round 2</h3>
+            <p>The bot has to follow the line as well as the wall, detect check points,indicate wall and has to stop at the finishing point.</p>
+            <h3>Round 3</h3>
+            <p>Same as Round 2</p>
+            <h3>Scoring Rules</h3>
+            <ul>
+              <li>Penalty of 150 points will be imposed for number of restarts taken.</li>
+              <li>Penalty of 100 points will be imposed for number of timeouts taken.</li>
+              <li>Penalty of 30 points will be imposed for each hand touch.</li>
+              <li>Penalty of 100 points will be imposed for each skip.</li>
+              <li>Penalty of 20 points will be imposed for each collision with wall.</li>
+              <li>50 points will be awarded for each wall is indicated properly.</li>
+              <li>50 points will be awarded for each detection of checkpoint.</li>
+              <li>100 points will be awarded for stopping at finishing point.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Sudhanshu Shivam - 8697892729</p>
+            <p>Sourav Ghosh - 8013174091</p>`
+    },
+    {
+      id: 'marinodrift',
+      name: 'Marino Drift',
+      icon: 'events/robotics/marinodrift.svg',
+      class: 'deg165',
+      desc: `<h1>Marino Drift</h1>
+            <p>Build terrestrial bot that is capable of traversing the arena and dragging/picking the blocks and an aquatic robot capable of placing the floating blocks at specific locations in water.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A minimum of 3 members and a maximum of 4 members are allowed per team.</li>
+              <li>The members must bring IDENTITY CARDS of the college.</li>
+              <li>No person should be a member of two teams.</li>
+              <li>No bot can be shared by two teams.</li>
+              <li>The participants will be provided with 220 Volts, 50 Hz standard AC supply</li>
+              <li>Participants will themselves have to arrange for any other power supply required for their robot</li>
+              <li>Teams cannot tinker with their bots during the run.</li>
+              <li>LEGO kits or its spare parts or pre-made mechanical parts are not allowed</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification</li>
+              <li>Any act of misbehavior or misconduct will lead to immediate disqualification of the team</li>
+              <li>The decision of the co-ordinator(s) will be final and binding</li>
+              <li>Each team should have both terrestrial robot and an aquatic robot to participate in this event</li>
+              <li>The terrestrial robots can use either picking or pushing mechanism for placing the blocks.</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>Maximum allowable dimension for the terrestrial bot will be 25cm x 25cm x 25cm with a tolerance of 10%</li>
+              <li>The weight of the robot should not exceed 2kg.</li>
+              <li>The robot can be provided on-board or off-board</li>
+              <li>The potential difference between any two electrical points and the robot must not exceed 22 volts throughout the run</li>
+            </ul>
+            <h3>Round 1</h3>
+            <p>Every team will be given a puzzle which they have to solve and then perform the given task in minimum time by finding and placing the respective blocks at the specific locations containing the digits of the answer. The terestial bot will be given a total of 4 minutes and the aquatic bot will be given 3 minutes.Placing each block at their correct position will fetch each team positive marks and the time remaining (in seconds) will be added as bonus to the final score. If the team finds their robot stuck at some position they can take a hand touch and the bot will be placed in a position (by the co-ordinator) where it can move freely which will fetch negative points. Only 1 technical timeout of 3 minutes and 1 restart is allowed (with negative points).</p>
+            <h3>Round 2</h3>
+            <p>A knockout round (similar to that of Round 1 with slight On-spot modifications) in which two teams will compete against each other. The first team to complete the task will win and qualify for the 3rd Round.</p>
+            <h3>Round 3</h3>
+            <p>A time trial round (similar to that of Round 1 with slight On-spot modifications) where the total time taken(in seconds) to complete the task will be the final score of the team. The winners will be declared on the basis of final score.</p>
+            <h3>Scoring Rules</h3>
+            <ul>
+              <li>Placing each block at its correct position: +100 points</li>
+              <li>Completely placing all blocks: +100 points</li>
+              <li>Restart: -200 points</li>
+              <li>Hand-touch: -20 points</li>
+              <li>Time remaining Bonus (terrestrial): Time remaining (in seconds) points</li>
+              <li>Time remaining Bonus (aquatic): Time remaining (in seconds) *2 points</li>
+              <li>Final score: Summation of the above scores.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
+    },
+    {
+      id: 'double',
+      name: 'Double Up',
+      icon: 'events/robotics/doubleup.svg',
+      class: 'deg195',
+      desc: `<h1>Double Up</h1>
+            <p>A fun filled event in which your bot has to compete with three other bots to take glory home</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>This is a one round event.</li>
+              <li>Multiple registrations are allowed i.e. after completing one round, team may try again with fresh registration.</li>
+              <li>Only On-spot registrations will take place under this category</li>
+              <li>Method of mobility used for the robot which leads the robot to lose contact with the ground is not allowed.</li>
+              <li>The decisions taken by the coordinators will be final and binding.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
+    },
+    {
+      id: 'robosoccer',
+      name: 'Robo Soccer',
+      icon: 'events/robotics/robosoccer.svg',
+      class: 'deg225',
+      desc: `<h1>Robo Soccer</h1>
+            <p>Design a manually controlled robot capable of pushing blocks along with scoring maximum number of goals against other robots avoiding different obstacles.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A minimum of 3 members and a maximum of 4 members are allowed per team</li>
+              <li>The members must bring IDENTITY CARDS of the college.</li>
+              <li>No person should be a member of two teams.</li>
+              <li>No bot can be shared by two teams.</li>
+              <li>The participants will be provided with 220 Volts, 50 Hz standard AC supply.</li>
+              <li>Participants themselves will have to arrange for other power supply required for their robot.</li>
+              <li>Teams cannot tinker with their bots during the play-offs</li>
+              <li>LEGO kits or its spare parts or pre-made mechanical parts are not allowed.</li>
+              <li>Any kind of damage to the arena by the robot will lead to direct disqualification</li>
+              <li>No attack on the opponent's bot is allowed.</li>
+              <li>Any act of misbehavior or misconduct will lead to immediate disqualification of the team.</li>
+              <li>The decision of the coordinators will be final and binding</li>
+            </ul>
+            <h3>Specifications</h3>
+            <ul>
+              <li>The robot should have a maximum size of 25cm (l)*25cm (b)*25cm (h) with a tolerance of 10%</li>
+              <li>The bot with external mechanism must be fitted in the cubical box of given dimension.</li>
+              <li>The maximum allowable weight of the robot is 3 KG without any tolerance.</li>
+              <li>The robot can be powered on-board or off-board.</li>
+              <li>The potential difference between any two electrical points on the robot must not exceed 20 volts throughout the run.</li>
+              <li>The robot should not grab/hold the ball at any point of time during the match.</li>
+            </ul>
+            <h3>Round 1</h3>
+            <p>The game will be of maximum 3 minutes and the bot has to place maximum number of balls and blocks on their specified places. First place all the blocks and then kick-off the ball by avoiding obstacles placed at different positions in arena. Two time-outs provided of 2 minutes. If mechanical fault occurs, negative points will be awarded in 2nd time-out.If the ball is kicked from specified place then team is awarded bonus points.</p>
+            <h3>Round 2</h3>
+            <p>This Knockout round will be of maximum 5 minutes where the team scoring maximum goals will qualify.</p>
+            <h3>Round 3</h3>
+            <p>Semi-Finals and Finals will be of maximum of 5 minutes in two halves of 2.5 minutes each. A maximum of 10 seconds will be allowed to hold the ball.</p>
+            <h3>Scoring Rules</h3>
+            <p>SCORE = 100*[Number of blocks placed] +150*[Number of goals] +200*[Number of jackpots] -20*[Number of obstacles touched] -50*[Number of times ball touches blocks] -100*[Second timeout taken] + [time left]</p>
+            <h3>Contact</h3>
+            <p>Ashutosh Priyadarshi - 8697276841</p>
+            <p>Rajeev Ranjan - 8820879972</p>
+            <p>Wahid Hussain - 8583908125</p>
+            <p>Sujay Basak - 8013821259</p>`
     }]
   },
   {
@@ -263,7 +698,7 @@ export class EventService {
       id: 'b-plan',
       name: 'B Plan',
       class: 'deg20',
-      icon: '',
+      icon: 'events/money-matters/bplan.svg',
       desc: `<h1>B Plan</h1>
             <p>Young entrepreneurs with a prudent business plan can present their ideas and stand a chance to get rewarded handsomely. Since the advent of time humans have relied on their selling skills to survive.If you think you can dazzle the audience by your impromptu thinking and wit, then come and be a part of the most challenging competition of Edge, which will provide you with the perfect platform to show your magic.</p>
             <h3>Rules</h3>
@@ -343,6 +778,51 @@ export class EventService {
             <p>In this round, one has to prepare a video or a ppt describing their proposed ad campaign, their brand positioning and target audience.</p>
             <h3>Contact</h3>
             <p></p>`
+    }]
+  },
+  {
+    id: 'ci',
+    icon: 'create-it.svg',
+    subEvents: [{
+      id: 'rtr',
+      name: 'Rags to Riches',
+      class: 'deg0',
+      icon: 'events/create-it/rags-to-riches.svg',
+      desc: `<h1>Creation-X-Nihilo</h1>
+            <p>This gives you scrap to build your creations.Start with rags and end with riches. Problem statement to be given on the spot. As an example we have the problem: Participants were given paint, poster colours etc. They were required to make something creative out of it and paint a member in their team. They were also supposed to give a description of it.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>There shall be a maximum of 3 members in a team. Team members may be from different institutions/colleges.</li>
+              <li>All the requirements will be provided.</li>
+              <li>The time allotted will be 1 hour.</li>
+              <li>Each member should have a valid ID card of his/her institute.</li>
+              <li>The right spirit of participation is expected from all the participants.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Medha Mishra - 8013290587</p>
+            <p>Parshati Chaodhury - 8961807090</p>`
+    },
+    {
+      id: 'mekanix',
+      name: 'Mekanix',
+      class: 'deg180',
+      icon: 'events/create-it/mekanix.svg',
+      desc: `<h1>Mekanix</h1>
+            <p>The participants are tested on their technical domain and then given raw materials out of which they are required to build a model.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>A team may have maximum of 4 members.</li>
+              <li>No person should be a member of two teams.</li>
+              <li>The members must bring ID cards of their respective colleges.</li>
+              <li>All the participating teams will have to be present on the event area in time or else they will be disqualified.</li>
+              <li>The participating team should not damage other's model or equipment.</li>
+              <li>Any act of misbehavior or misconduct will lead to direct disqualification.</li>
+              <li>The decision of the coordinators will be final and binding.</li>
+              <li>This will be 2 rounds in the event. Each team will be given only 1 chance for each of the rounds and the best score will be considered as per the scoring procedure for each round.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Medha Mishra - 8013290587</p>
+            <p>Parshati Chaodhury - 8961807090</p>`
     }]
   }]
 

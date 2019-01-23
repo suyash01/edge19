@@ -2,10 +2,12 @@
 //$dialog-position-top: 12vh;
 
 @import url('https://fonts.googleapis.com/css?family=Megrim');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import "~ngx-smart-modal/ngx-smart-modal.scss";
 
 *{
   font-family: 'Megrim';
+  font-weight: bold;
 }
 
 html, body{
@@ -17,6 +19,11 @@ a, a:hover{
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+}
+
+.nsm-body * {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 .icon-center {

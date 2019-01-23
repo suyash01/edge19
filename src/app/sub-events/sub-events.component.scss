@@ -1,0 +1,9 @@
+@media (min-width: 768px){
+  @mixin deg($d, $r) {
+    transform: rotate($d) translate($r) rotate(-$d);
+  }
+  
+  .deg270 {
+    @include deg(-270deg, 39vh);
+  }
+}

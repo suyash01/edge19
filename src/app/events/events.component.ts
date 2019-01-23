@@ -17,7 +17,7 @@ export class EventsComponent implements OnInit {
     {name: "events/elevation.svg", class: "deg235", caption: "Elevation", id: 'elevation'},
     {name: "events/robotics.svg", class: "deg258", caption: "Robotics", id: 'robotics'},
     {name: "events/food-for-fun.svg", class: "deg282", caption: "Food For Fun", id: 'fff'},
-    {name: "events/create-it.svg", class: "deg305", caption: "Create It", id: 'create-it'},
+    {name: "events/create-it.svg", class: "deg305", caption: "Create It", id: 'ci'},
     {name: "events/infocus.svg", class: "deg328", caption: "Infocus", id: 'infocus'},
     {name: "events/fun-events.svg", class: "deg351", caption: "Fun Events", id: 'fun'},
     {name: "events/just-like-that.svg", class: "deg14", caption: "Just Like That", id: 'jlt'},
