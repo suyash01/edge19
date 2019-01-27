@@ -1,60 +1,62 @@
-import { Injectable } from '@angular/core';
-import { purePipeDef } from '@angular/core/src/view';
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class EventService {
-
-  events = [{
-    id: 'ca',
-    icon: 'compute-aid.svg',
-    subEvents: [{
-      id: 'flawless',
-      name: 'Flawless',
-      icon: 'events/compute-aid/flawless.svg',
-      class: 'deg0',
-      desc: `<h1>Flawless</h1>
+  events = [
+    {
+      id: "ca",
+      icon: "compute-aid.svg",
+      subEvents: [
+        {
+          id: "flawless",
+          name: "Flawless",
+          icon: "events/compute-aid/flawless.svg",
+          class: "deg0",
+          desc: `<h1>Flawless</h1>
             <p>If coding is your passion and whenever you see a problem you cannot wait to get down to code it, then this is the perfect event for you. Code your heart out and race with the others to win the battle of wits and will. Be Flawless!</p>`
+        },
+        {
+          id: "bughunt",
+          name: "Bug Hunt",
+          icon: "events/compute-aid/bug-hunt.svg",
+          class: "deg30",
+          desc: `<h1>Bug Hunt</h1>`
+        },
+        {
+          id: "crypto",
+          name: "Cryptoquest",
+          icon: "events/compute-aid/bug-hunt.svg",
+          class: "deg330",
+          desc: `<h1>CryptoQuest</h1>`
+        },
+        {
+          id: "codeout",
+          name: "CodeOut",
+          icon: "events/compute-aid/bug-hunt.svg",
+          class: "deg180",
+          desc: `<h1>CodeOut</h1>`
+        },
+        {
+          id: "code-relay",
+          name: "Code Relay",
+          icon: "events/compute-aid/bug-hunt.svg",
+          class: "deg150",
+          desc: `<h1>Code Relay</h1>`
+        }
+      ]
     },
     {
-      id: 'bughunt',
-      name: 'Bug Hunt',
-      icon: 'events/compute-aid/bug-hunt.svg',
-      class: 'deg30',
-      desc: `<h1>Bug Hunt</h1>`
-    },
-    {
-      id: 'crypto',
-      name: 'Cryptoquest',
-      icon: 'events/compute-aid/bug-hunt.svg',
-      class: 'deg330',
-      desc: `<h1>CryptoQuest</h1>`
-    },
-    {
-      id: 'codeout',
-      name: 'CodeOut',
-      icon: 'events/compute-aid/bug-hunt.svg',
-      class: 'deg180',
-      desc: `<h1>CodeOut</h1>`
-    },
-    {
-      id: 'code-relay',
-      name: 'Code Relay',
-      icon: 'events/compute-aid/bug-hunt.svg',
-      class: 'deg150',
-      desc: `<h1>Code Relay</h1>`
-    }]
-  },
-  {
-    id: 'robotics',
-    icon: 'robotics.svg',
-    subEvents: [{
-      id: 'roborace',
-      name: 'Robo Race',
-      icon: 'events/robotics/roborace.svg',
-      class: 'deg45',
-      desc: `<h1>Robo Race</h1>
+      id: "robotics",
+      icon: "robotics.svg",
+      subEvents: [
+        {
+          id: "roborace",
+          name: "Robo Race",
+          icon: "events/robotics/roborace.svg",
+          class: "deg45",
+          desc: `<h1>Robo Race</h1>
             <p>Build a bot (wired/wireless) that is capable of traversing the arena manually bypassing the hurdles in its path.</p>
             <h3>Rules</h3>
             <ul>
@@ -103,13 +105,13 @@ export class EventService {
             <p>Rajeev Ranjan - 8820879972</p>
             <p>Wahid Hussain - 8583908125</p>
             <p>Sujay Basak - 8013821259</p>`
-    },
-    {
-      id: 'blitzkrieg',
-      name: 'Blitzkrieg',
-      icon: 'events/robotics/blitzkrieg.svg',
-      class: 'deg15',
-      desc: `<h1>Blitzkrieg</h1>
+        },
+        {
+          id: "blitzkrieg",
+          name: "Blitzkrieg",
+          icon: "events/robotics/blitzkrieg.svg",
+          class: "deg15",
+          desc: `<h1>Blitzkrieg</h1>
             <p>Design & construct a manually controlled robot capable of fighting a one-on-one tournament. Think of a robot with sophisticated weapons that can destroy your enemy and make you win.</p>
             <h3>Rules</h3>
             <ul>
@@ -189,13 +191,13 @@ export class EventService {
             <p>Rajeev Ranjan - 8820879972</p>
             <p>Wahid Hussain - 8583908125</p>
             <p>Sujay Basak - 8013821259</p>`
-    },
-    {
-      id: 'liftnlay',
-      name: 'Lift N Lay',
-      icon: 'events/robotics/liftnlay.svg',
-      class: 'deg345',
-      desc: `<h1>Lift 'N' Lay</h1>
+        },
+        {
+          id: "liftnlay",
+          name: "Lift N Lay",
+          icon: "events/robotics/liftnlay.svg",
+          class: "deg345",
+          desc: `<h1>Lift 'N' Lay</h1>
             <p>Build a terrestrial bot that is capable of picking blocks through different hurdles and capable of placing them.</p>
             <h3>Rules</h3>
             <ul>
@@ -232,13 +234,13 @@ export class EventService {
             <p>Rajeev Ranjan - 8820879972</p>
             <p>Wahid Hussain - 8583908125</p>
             <p>Sujay Basak - 8013821259</p>`
-    },
-    {
-      id: 'stalker',
-      name: 'Stalker',
-      icon: 'events/robotics/stalker.svg',
-      class: 'deg315',
-      desc: `<h1>Stalker</h1>
+        },
+        {
+          id: "stalker",
+          name: "Stalker",
+          icon: "events/robotics/stalker.svg",
+          class: "deg315",
+          desc: `<h1>Stalker</h1>
             <p>To build an autonomously controlled robot capable of following a white line on a black surface or black line on white surface.</p>
             <h3>Rules</h3>
             <ul>
@@ -276,13 +278,13 @@ export class EventService {
             <h3>Contact</h3>
             <p>Sudhanshu Shivam - 8697892729</p>
             <p>Sourav Ghosh - 8013174091</p>`
-    },
-    {
-      id: 'jigsaw',
-      name: 'Jigsaw',
-      icon: 'events/robotics/jigsaw.svg',
-      class: 'deg270',
-      desc: `<h1>Jigsaw</h1>
+        },
+        {
+          id: "jigsaw",
+          name: "Jigsaw",
+          icon: "events/robotics/jigsaw.svg",
+          class: "deg270",
+          desc: `<h1>Jigsaw</h1>
             <p>To build an autonomously controlled bot which is capable of finding its way through a maze and arriving at the final destination.</p>
             <h3>Rules</h3>
             <ul>
@@ -319,13 +321,13 @@ export class EventService {
             <h3>Contact</h3>
             <p>Sudhanshu Shivam - 8697892729</p>
             <p>Sourav Ghosh - 8013174091</p>`
-    },
-    {
-      id: 'wallstreet',
-      name: 'Wall Street',
-      icon: 'events/robotics/wallstreet.svg',
-      class: 'deg135',
-      desc: `<h1>Wall Street</h1>
+        },
+        {
+          id: "wallstreet",
+          name: "Wall Street",
+          icon: "events/robotics/wallstreet.svg",
+          class: "deg135",
+          desc: `<h1>Wall Street</h1>
             <p>Build an autonomous line follower bot based on microcontroller which is capable of following lines, walls (where line may or may not present) and detecting crossroads.</p>
             <h3>Rules</h3>
             <ul>
@@ -372,13 +374,13 @@ export class EventService {
             <h3>Contact</h3>
             <p>Sudhanshu Shivam - 8697892729</p>
             <p>Sourav Ghosh - 8013174091</p>`
-    },
-    {
-      id: 'marinodrift',
-      name: 'Marino Drift',
-      icon: 'events/robotics/marinodrift.svg',
-      class: 'deg165',
-      desc: `<h1>Marino Drift</h1>
+        },
+        {
+          id: "marinodrift",
+          name: "Marino Drift",
+          icon: "events/robotics/marinodrift.svg",
+          class: "deg165",
+          desc: `<h1>Marino Drift</h1>
             <p>Build terrestrial bot that is capable of traversing the arena and dragging/picking the blocks and an aquatic robot capable of placing the floating blocks at specific locations in water.</p>
             <h3>Rules</h3>
             <ul>
@@ -424,13 +426,13 @@ export class EventService {
             <p>Rajeev Ranjan - 8820879972</p>
             <p>Wahid Hussain - 8583908125</p>
             <p>Sujay Basak - 8013821259</p>`
-    },
-    {
-      id: 'double',
-      name: 'Double Up',
-      icon: 'events/robotics/doubleup.svg',
-      class: 'deg195',
-      desc: `<h1>Double Up</h1>
+        },
+        {
+          id: "double",
+          name: "Double Up",
+          icon: "events/robotics/doubleup.svg",
+          class: "deg195",
+          desc: `<h1>Double Up</h1>
             <p>A fun filled event in which your bot has to compete with three other bots to take glory home</p>
             <h3>Rules</h3>
             <ul>
@@ -445,13 +447,13 @@ export class EventService {
             <p>Rajeev Ranjan - 8820879972</p>
             <p>Wahid Hussain - 8583908125</p>
             <p>Sujay Basak - 8013821259</p>`
-    },
-    {
-      id: 'robosoccer',
-      name: 'Robo Soccer',
-      icon: 'events/robotics/robosoccer.svg',
-      class: 'deg225',
-      desc: `<h1>Robo Soccer</h1>
+        },
+        {
+          id: "robosoccer",
+          name: "Robo Soccer",
+          icon: "events/robotics/robosoccer.svg",
+          class: "deg225",
+          desc: `<h1>Robo Soccer</h1>
             <p>Design a manually controlled robot capable of pushing blocks along with scoring maximum number of goals against other robots avoiding different obstacles.</p>
             <h3>Rules</h3>
             <ul>
@@ -490,61 +492,122 @@ export class EventService {
             <p>Rajeev Ranjan - 8820879972</p>
             <p>Wahid Hussain - 8583908125</p>
             <p>Sujay Basak - 8013821259</p>`
-    }]
-  },
-  {
-    id: 'infocus',
-    icon: 'infocus.svg',
-    subEvents: [{
-      id: 'shoot-m-up',
-      name: 'Shoot-M-Up',
-      icon: 'events/infocus/shoot-m-up.svg',
-      class: 'deg0',
-      desc: `<h1>Shoot-M-Up</h1>
-            <p>In this live photography competition you need to think on your feet and be creative at the same time. This mobile photography competition where your photographic skills combined with creative approach and innovative ideas can bag you the first prize.</p>`
+        }
+      ]
     },
     {
-      id: 'insta-edit',
-      name: 'Insta-Edit',
-      icon: 'events/infocus/insta-edit.svg',
-      class: 'deg30',
-      desc: `<h1>Insta-Edit</h1>
-            <p>INSTA-EDIT is an editing competition where your creative mind blends perfectly with your Photoshop skills to create your masterpiece and who knows, you might bag the first prize</p>`
+      id: "infocus",
+      icon: "infocus.svg",
+      subEvents: [
+        {
+          id: "shoot-m-up",
+          name: "Shoot-M-Up",
+          icon: "events/infocus/shoot-m-up.svg",
+          class: "deg0",
+          desc: `<h1>Shoot-M-Up</h1>
+            <p>In this live photography competition you need to think on your feet and be creative at the same time. This mobile photography competition where your photographic skills combined with creative approach and innovative ideas can bag you the first prize.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>The topic is open. So just give us the best of you.</li>
+              <li>Incoming photograph submissions shall be screened for originality, authenticity & copyright infringement & maintaining editing regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libellous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". So the author of the image retains full ownership of the copyright in each entry.</li>
+              <li>HDR, Selective Colouring, Manipulation of pictures are not allowed.</li>
+              <li>Tempering with EXIF is also not allowed.</li>
+              <li>Mild post processing like Colour correction, Light editing, Sharpness enhancements are allowed.</li>
+              <li>Cropping up to 15% is allowed maintaining aspect ratio.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Rohit Deb - 9038220806</p>
+            <p>Indrajit Dhara - 9804179878</p>`
+        },
+        {
+          id: "insta-edit",
+          name: "Insta-Edit",
+          icon: "events/infocus/insta-edit.svg",
+          class: "deg30",
+          desc: `<h1>Insta-Edit</h1>
+            <p>INSTA-EDIT is an editing competition where your creative mind blends perfectly with your Photoshop skills to create your masterpiece and who knows, you might bag the first prize</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>Live editing of a given picture.</li>
+              <li>Incoming editing submissions shall be screened for originality, authenticity & maintaining regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libelous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". But the author of the edited image does not retain full ownership of the edited image. Geekonix holds the copyright of the photo. Further reproductions or misuses of the given picture will be counted as a criminal offence and stringent actions will be undertaken.</li>
+              <li>5 photos will be given to you. You can choose to edit any one photo of your wish.</li>
+              <li>No manipulation of background is allowed.</li>
+              <li>You will be given 1.5 hours to showcase your editing skills.</li>
+              <li>Participants are requested to bring their own laptop.</li>
+              <li>Participants who will be editing in mobile, can choose any app of their choices.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Karan Paul - 8906833180</p>
+            <p>Rohit Deb - 9038220806</p>`
+        },
+        {
+          id: "insta-click",
+          name: "Insta-Click",
+          icon: "events/infocus/insta-click.svg",
+          class: "deg330",
+          desc: `<h1>Insta-Click</h1>
+            <p>A Live Event photography competition that will measure your creativity as well as innovative approach to photography.The best and the most extraordinary photograph clicked on the event day gets awarded.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>Live event photography.</li>
+              <li>Incoming photograph submissions shall be screened for originality, authenticity & copyright infringement & maintaining editing regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libellous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". So the author of the image retains full ownership of the copyright in each entry.</li>
+              <li>No post-processing is allowed</li>
+              <li>Only cropping up to 15% is allowed</li>
+            </ul>
+            <h3>Contact</h3>
+            <p></p>
+            <p>Indrajit Dhara - 9804179878</p>
+            <p>Karan Paul - 8906833180</p>`
+        },
+        {
+          id: "crumbs",
+          name: "Crumbs",
+          icon: "events/infocus/crumbs.svg",
+          class: "deg160",
+          desc: `<h1>Crumbs</h1>
+            <p>Showcase your skills to win the prize in an event that will put your creativity and talent to the test.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>The topic is open. So just give us the best of you.</li>
+              <li>PARTICIPANTS MUST SUBMIT A SOFTCOPY AND A HARDCOPY (A4 SIZE PHOTO PAPER) OF EACH PHOTOS TO BE SUBMITTED.</li>
+              <li>Incoming photograph submissions shall be screened for originality, authenticity & copyright infringement & maintaining editing regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libellous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". So the author of the image retains full ownership of the copyright in each entry.</li>
+              <li>Framing are not allowed. HDR, Selective Colouring, Manipulation of pictures are not allowed. tempering with EXIF is also not allowed.</li>
+              <li>Mild post processing like Colour correction, Light editing, Sharpness enhancements are allowed.</li>
+              <li>Cropping up to 15% is allowed maintaining aspect ratio.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Rohit Deb - 9038220806</p>
+            <p>Karan Paul - 8906833180</p>`
+        },
+        {
+          id: "odyssey",
+          name: "Odyssey",
+          icon: "events/infocus/odyssey.svg",
+          class: "deg200",
+          desc: `<h1>Odyssey</h1>
+            <p>If film making is what intrigues you, then this is the event for you. You stand the chance of getting recognition from stalwarts of the film industry.</p>
+            <h3>Rules</h3>
+            <ul>
+              <li>The topic is open. So just give us the best of you.</li>
+              <li>Incoming films shall be screened for originality, authenticity & copyright infringement issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libellous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Judge's decision will be final to determine whether the content is inappropriate or not and accordingly your work might get disqualified.</li>
+              <li>Run time – 25 minutes is the maximum time period, which will be provided for each film screening. Shorter films can get extra points according to judge’s willing. Statutory warnings should be included as per the needs. **English subtitles should be included.</li>
+            </ul>
+            <h3>Contact</h3>
+            <p>Rohit Deb - 9038220806</p>
+            <p>Karan Paul - 8906833180</p>`
+        }
+      ]
     },
     {
-      id: 'insta-click',
-      name: 'Insta-Click',
-      icon: 'events/infocus/insta-click.svg',
-      class: 'deg330',
-      desc: `<h1>Insta-Click</h1>
-            <p>A Live Event photography competition that will measure your creativity as well as innovative approach to photography.The best and the most extraordinary photograph clicked on the event day gets awarded.</p>`
-    },
-    {
-      id: 'crumbs',
-      name: 'Crumbs',
-      icon: 'events/infocus/crumbs.svg',
-      class: 'deg160',
-      desc: `<h1>Crumbs</h1>
-            <p>Showcase your skills to win the prize in an event that will put your creativity and talent to the test.</p>`
-    },
-    {
-      id: 'odyssey',
-      name: 'Odyssey',
-      icon: 'events/infocus/odyssey.svg',
-      class: 'deg200',
-      desc: `<h1>Odyssey</h1>
-            <p>If film making is what intrigues you, then this is the event for you. You stand the chance of getting recognition from stalwarts of the film industry.</p>`
-    }]
-  },
-  {
-    id: 'elevation',
-    icon: 'elevation.svg',
-    subEvents: [{
-      id: 'cadomania',
-      name: 'Cad-O-Mania',
-      icon: 'events/elevation/cadomania.svg',
-      class: 'deg0',
-      desc: `<h1>Cad-O-Mania</h1>
+      id: "elevation",
+      icon: "elevation.svg",
+      subEvents: [
+        {
+          id: "cadomania",
+          name: "Cad-O-Mania",
+          icon: "events/elevation/cadomania.svg",
+          class: "deg0",
+          desc: `<h1>Cad-O-Mania</h1>
             <p>This is an on the spot event of making Plan and Elevation of a building in AutoCAD. Problem statement of the event will be given on the spot.</p>
             <h3>Rules</h3>
             <ul>
@@ -561,13 +624,13 @@ export class EventService {
             <p>Sanjit Shaw - 9093058470</p>
             <p>Prashant Kumar Dubey - 9091397765</p>
             <p>Srimonti Kundu - 8240253078</p>`
-    },
-    {
-      id: 'nirmaan',
-      name: 'Nirmaan',
-      icon: 'events/elevation/nirmaan.svg',
-      class: 'deg180',
-      desc: `<h1>Nirmaan</h1>
+        },
+        {
+          id: "nirmaan",
+          name: "Nirmaan",
+          icon: "events/elevation/nirmaan.svg",
+          class: "deg180",
+          desc: `<h1>Nirmaan</h1>
             <p>This event tests your art of constructing Bridges. Bring out the Engineer inside you and create a marvel out of the raw materials provided.</p>
             <h3>Rules</h3>
             <ul>
@@ -614,17 +677,19 @@ export class EventService {
             <p>Sanjit Shaw - 9093058470</p>
             <p>Vishal Kumar - 7991176304</p>
             <p>Saptarshi Bhattacharjee - 9051159470</p>`
-    }]
-  },
-  {
-    id: 'newron',
-    icon: 'newron.svg',
-    subEvents: [{
-      id: 'quiz',
-      name: 'The Quiz',
-      icon: 'events/newron/quiz.svg',
-      class: 'deg20',
-      desc: `<h1>The Quiz</h1>
+        }
+      ]
+    },
+    {
+      id: "newron",
+      icon: "newron.svg",
+      subEvents: [
+        {
+          id: "quiz",
+          name: "The Quiz",
+          icon: "events/newron/quiz.svg",
+          class: "deg20",
+          desc: `<h1>The Quiz</h1>
             <p>It is a general quiz event that tests the knowledge of an individual about this world. Questions are based on a range of topics namely Music, Entertainment, Literature, Art and Sports abbreviated as MELAS.</p>
             <h3>Rules</h3>
             <ul>
@@ -643,13 +708,13 @@ export class EventService {
             <h3>Contact</h3>
             <p>Alvin Karkun - 7890150690</p>
             <p>Sankarshan Sur - 9830792503</p>`
-    },
-    {
-      id: 'yp',
-      name: 'Youth Parliament',
-      icon: 'events/newron/youth-parliament.svg',
-      class: 'deg340',
-      desc: `<h1>Youth Parliament</h1>
+        },
+        {
+          id: "yp",
+          name: "Youth Parliament",
+          icon: "events/newron/youth-parliament.svg",
+          class: "deg340",
+          desc: `<h1>Youth Parliament</h1>
             <p>Youth parliament is a form of modern debate to explore your knowledge about Indian parliamentary system. A topic will be given for discussion in the house. The more you research ,the better you will be able to debate.</p>
             <h3>Rules</h3>
             <ul>
@@ -667,13 +732,13 @@ export class EventService {
             <h3>Contact</h3>
             <p>Alvin Karkun - 7890150690</p>
             <p>Ankit Anjan - 7739793511</p>`
-    },
-    {
-      id: 'ey',
-      name: 'Electronically Yours',
-      icon: 'events/newron/electronically-yours.svg',
-      class: 'deg180',
-      desc: `<h1>Electronically Yours</h1>
+        },
+        {
+          id: "ey",
+          name: "Electronically Yours",
+          icon: "events/newron/electronically-yours.svg",
+          class: "deg180",
+          desc: `<h1>Electronically Yours</h1>
             <p>This event tests your knowledge of Electronics. It is a pure electronics-based team event that requires the basic knowledge of Electrical and Electronics Circuits along with its various components, microprocessors & microcontrollers and circuit designing.</p>
             <h3>Rules</h3>
             <ul>
@@ -689,17 +754,19 @@ export class EventService {
             <h3>Contact</h3>
             <p>Alvin Karkun - 7890150690</p>
             <p>Soumalya Ghosh - 8582834183</p>`
-    }]
-  },
-  {
-    id: 'mm',
-    icon: 'money-matters.svg',
-    subEvents: [{
-      id: 'b-plan',
-      name: 'B Plan',
-      class: 'deg20',
-      icon: 'events/money-matters/bplan.svg',
-      desc: `<h1>B Plan</h1>
+        }
+      ]
+    },
+    {
+      id: "mm",
+      icon: "money-matters.svg",
+      subEvents: [
+        {
+          id: "b-plan",
+          name: "B Plan",
+          class: "deg20",
+          icon: "events/money-matters/bplan.svg",
+          desc: `<h1>B Plan</h1>
             <p>Young entrepreneurs with a prudent business plan can present their ideas and stand a chance to get rewarded handsomely. Since the advent of time humans have relied on their selling skills to survive.If you think you can dazzle the audience by your impromptu thinking and wit, then come and be a part of the most challenging competition of Edge, which will provide you with the perfect platform to show your magic.</p>
             <h3>Rules</h3>
             <ul>
@@ -718,13 +785,13 @@ export class EventService {
             <p>In this Round the selected teams will be called to present their business idea to an open audience during Edge. Tentative duration is 10 min. of presentation followed by 5 minutes of Question & Answer.</p>
             <h3>Contact</h3>
             <p></p>`
-    },
-    {
-      id: 'stockit',
-      name: 'Stock It',
-      class: 'deg340',
-      icon: 'events/money-matters/stock-it.svg',
-      desc: `<h1>Stock It</h1>
+        },
+        {
+          id: "stockit",
+          name: "Stock It",
+          class: "deg340",
+          icon: "events/money-matters/stock-it.svg",
+          desc: `<h1>Stock It</h1>
             <p>The Stock Market Challenge is an online simulation trading game where you create and manage your own portfolio and compete with other players in a risk free environment. Access financial information on stocks to get better insight on its potential and fundamentals.</p>
             <h3>Rules</h3>
             <ul>
@@ -736,13 +803,13 @@ export class EventService {
             </ul>
             <h3>Contact</h3>
             <p></p>`
-    },
-    {
-      id: 'b-quiz',
-      name: 'B Quiz',
-      class: 'deg160',
-      icon: 'events/money-matters/bquiz.svg',
-      desc: `<h1>B Quiz</h1>
+        },
+        {
+          id: "b-quiz",
+          name: "B Quiz",
+          class: "deg160",
+          icon: "events/money-matters/bquiz.svg",
+          desc: `<h1>B Quiz</h1>
             <p>This is a team event where each team is quizzed on relevant business topics and the market scenario.</p>
             <h3>Rules</h3>
             <ul>
@@ -758,13 +825,13 @@ export class EventService {
             </ul>
             <h3>Contact</h3>
             <p></p>`
-    },
-    {
-      id: 'addomedia',
-      name: 'Addomedia',
-      class: 'deg200',
-      icon: 'events/money-matters/addomedia.svg',
-      desc: `<h1>Addomedia</h1>
+        },
+        {
+          id: "addomedia",
+          name: "Addomedia",
+          class: "deg200",
+          icon: "events/money-matters/addomedia.svg",
+          desc: `<h1>Addomedia</h1>
             <p>The idea of this event is to allow the players to explore their creativity as well as their marketing power. The Event is based on a marketing theme, participants will have to pick any product real or fictional of their choice and device an ad campaign to sell the said product.</p>
             <h3>Rules</h3>
             <ul>
@@ -778,17 +845,19 @@ export class EventService {
             <p>In this round, one has to prepare a video or a ppt describing their proposed ad campaign, their brand positioning and target audience.</p>
             <h3>Contact</h3>
             <p></p>`
-    }]
-  },
-  {
-    id: 'ci',
-    icon: 'create-it.svg',
-    subEvents: [{
-      id: 'rtr',
-      name: 'Rags to Riches',
-      class: 'deg0',
-      icon: 'events/create-it/rags-to-riches.svg',
-      desc: `<h1>Creation-X-Nihilo</h1>
+        }
+      ]
+    },
+    {
+      id: "ci",
+      icon: "create-it.svg",
+      subEvents: [
+        {
+          id: "rtr",
+          name: "Rags to Riches",
+          class: "deg0",
+          icon: "events/create-it/rags-to-riches.svg",
+          desc: `<h1>Creation-X-Nihilo</h1>
             <p>This gives you scrap to build your creations.Start with rags and end with riches. Problem statement to be given on the spot. As an example we have the problem: Participants were given paint, poster colours etc. They were required to make something creative out of it and paint a member in their team. They were also supposed to give a description of it.</p>
             <h3>Rules</h3>
             <ul>
@@ -801,13 +870,13 @@ export class EventService {
             <h3>Contact</h3>
             <p>Medha Mishra - 8013290587</p>
             <p>Parshati Chaodhury - 8961807090</p>`
-    },
-    {
-      id: 'mekanix',
-      name: 'Mekanix',
-      class: 'deg180',
-      icon: 'events/create-it/mekanix.svg',
-      desc: `<h1>Mekanix</h1>
+        },
+        {
+          id: "mekanix",
+          name: "Mekanix",
+          class: "deg180",
+          icon: "events/create-it/mekanix.svg",
+          desc: `<h1>Mekanix</h1>
             <p>The participants are tested on their technical domain and then given raw materials out of which they are required to build a model.</p>
             <h3>Rules</h3>
             <ul>
@@ -823,13 +892,20 @@ export class EventService {
             <h3>Contact</h3>
             <p>Medha Mishra - 8013290587</p>
             <p>Parshati Chaodhury - 8961807090</p>`
-    }]
-  }]
+        }
+      ]
+    },
+    {
+      id: "fff",
+      icon: "food-for-fun.svg",
+      subEvents: []
+    }
+  ];
 
-  constructor() { }
+  constructor() {}
 
-  public getDetails(id: string){
-    const details = this.events.find((d) => {
+  public getDetails(id: string) {
+    const details = this.events.find(d => {
       return d.id === id;
     });
     return details;

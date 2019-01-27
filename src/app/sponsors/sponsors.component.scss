@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin: 5vh auto 5vh auto;
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+}
+
+.col-md-4 {
+  position: relative;
+  width: 100%;
+
+  .sponsor {
+    width: 30vh;
+    height: 30vh;
+    margin: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 100%;
+    }
+  }
+
+  h2 {
+    background-color: rgba(36,36,36,0.7);
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}

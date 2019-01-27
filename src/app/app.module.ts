@@ -14,6 +14,8 @@ import { EventsComponent } from './events/events.component';
 import { MegaEventsComponent } from './mega-events/mega-events.component';
 import { LogosComponent } from './logos/logos.component';
 import { SubEventsComponent } from './sub-events/sub-events.component';
+import { TeamComponent } from './team/team.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
 
 import { HomeService } from './services/home.service';
 import { EventService } from './services/event.service';
@@ -27,7 +29,9 @@ import { MegaEventService } from './services/mega-event.service';
     EventsComponent,
     MegaEventsComponent,
     LogosComponent,
-    SubEventsComponent
+    SubEventsComponent,
+    TeamComponent,
+    SponsorsComponent
   ],
   imports: [
     BrowserModule,
