@@ -16,28 +16,54 @@ export class HomeService {
   },
   {
     id: 'merch',
-    desc: `<h1>Merchandise</h1>`
-  },
-  {
-    id: 'sponsors',
-    desc: `<h1>Sponsors</h1>`
+    desc: `<h1>Merchandise</h1>
+          <p>The official EDGE'19 merchandise T-Shirts are up for grabs. Suit up in the Geek Armour and flaunt the legacy that is EDGE.</p>
+          <p>Priced at INR 230 each.</p>
+          <p>Become a part of the GEEKONIX family by participating in the new daily Quiz competition and avail exciting discounts.</p>
+          <ol>
+            <li>From 3rd February onwards every day 3 questions will be posted online. You get INR 10 off for each question you answer correctly.</li>
+            <li>Three lucky winners will be selected everyday from the people who have participated in the quiz that day and their winnings will be doubled.( Applicable for the first 15 days from 3rd February).</li>
+            <li>The questions will be posted at 9:30 am everyday and will be valid till 9:30pm of that day.</li>
+            <li>The answers and the three lucky winners will be announced at 10pm.</li>
+            <li>You need to pre-book the merchandise t-shirt with INR 100, then only you can participate in the quiz and further avail the discounts you've won via the quiz.</li>
+            <li>Only 1 merchandise t-shirt can be availed by participating in a single day's quiz.</li>
+          </ol>
+          <br>
+          <img src="/assets/merch-white.jpeg" alt="Merchandise">
+          <img src="/assets/merch-black.jpeg" alt="Merchandise">
+          <br>
+          <p><b>Hurry up & suit up in your geek armour!</b></p>`
   },
   {
     id: 'accomodation',
-    desc: `<h1>Accomodation</h1>`
+    desc: `<h1>Accomodation</h1>
+          <p>Accomodation is being made available for participants from outside Kolkata, on a first-come-first-serve basis. If you want to avail accomodation please fill up the form here. If you have any questions regarding the same, please contact the undersigned.</p>
+          <br>
+          <h3>Contact</h3>
+          <p>Siddharth Verma - 7688080223</p>`
   },
   {
     id: 'reg',
-    desc: `<h1>Schedule & Registration</h1>`
+    desc: `<h1>Schedule & Registration</h1>
+          <p>To Be Updated</p>`
   },
   {
     id: 'contact',
-    desc: `<h1>Contact</h1>`
+    desc: `<h1>Contact</h1>
+          <p>For queries related to events contact the respective event co-ordinators whose contats are given on the respective event pages.</p>
+          <br>
+          <p>Email: <a href="mailto:geekonix@gmail.com">geekonix@gmail.com</a></p>
+          <p>Chandrasekhar Upadhyay - 9038606282</p>
+          <p>Shatavisha Biswas - 9748017460</p>
+          <br>
+          <h3>Sponsorship Contacts:</h3>
+          <p>Ritaban Chakrabarti - 8444825573</p>
+          <p>Rohan Choudhury - 9331556687</p>`
   },
   {
     id: 'ca',
     desc: `<h1>Campus Ambasador</h1>
-          <img src="/assets/ca.jpg" alt="Campus Ambassador" style="max-width: 500px; height: auto; width: 100%">
+          <img src="/assets/ca.jpg" alt="Campus Ambassador">
           <p>We welcome you to be a part of the family and witness the technical extravaganza.</p>
           <p>Represent your college by signing up for the Campus Ambassador Programme for EDGE'19.</p>
           <h3>Requirements for being a CA:</h3>
@@ -64,13 +90,13 @@ export class HomeService {
   },
   {
     id: 'deeds',
-    desc: `<h1>Edge Deeds</h1>`
-  },
-  {
-    id: 'team',
-    desc: `<h1>Team</h1>
-          <h1>Webmaster</h1>
-          <h1>Designs</h1>`
+    desc: `<h1>Edge Deeds</h1>
+          <h2>Phase 1 - Friend In Need<br><small>20th - 24th August, 2018</small></h2>
+          <p>During the first phase of EDGE DEEDS the Geekonix family extended their helping hand towards the unfortunate people stricken by the floods in Kerala. An amount exceeding INR 50,000 was donated towards the betterment of those affected by the floods. The noble initiative saw participation from over 350 kindred souls.</p>
+          <h2>Phase 2 - Visit A Friend<br><small>4th week of February, 2019</small></h2>
+          <p>True kindness lies within the act of giving' and the greatest gift you can give is by lending a helping hand. So join us in the second phase of EDGE Deeds where we help those who have been unfortunate enough to be left in this world to fend for themselves without a hand to protect and guide them. So we will visit an orphanage to engage and support them in this tumultuous journey of life.</p>
+          <h2>Phase 3 - Walkathon: March Against Alcohol and Drug Abuse<br><small>23rd March, 2019</small></h2>
+          <p>A nation can prosper only when it's youth is free from any shackles and can pursue their dreams. The strongest opposition to this is the ever-increasing substance abuse in today's youth. Geekonix believes that spreading awareness about the same is quintessential to help the society abstain from such vices. With this aim in view, team Geekonix is organizing a Walkathon- A walk to let the society know the right from wrong, a walk to keep ourselves ​away from such vices.</p>`
   }]
 
   constructor() { }

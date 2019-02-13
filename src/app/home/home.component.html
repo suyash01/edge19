@@ -18,13 +18,17 @@
   <div id="timer">
     <countdown [config]="{ stopTime: 1554402600000, clock: ['d', 99, 2, 'h', 24, 2, 'm', 60, 2, 's', 60, 2, 'u', 10, 1] }">$!d!D $!h!H $!m!M $!s!S</countdown>
   </div>
+  <div id="dates">
+    <p>5th, 6th & 7th April</p>
+  </div>
   <footer>
     <p><a routerLink="/team">Team</a></p>
     <p><a routerLink="/sponsors">Sponsors</a></p>
     <p><a (click)="openModal('merch')">Merchandise</a></p>
+    <p><a (click)="openModal('accomodation')">Accomodation</a></p>
     <p><a (click)="openModal('reg')">Schedule & Registration</a></p>
     <p><a (click)="openModal('ca')">Campus Ambassador</a></p>
-    <!-- <p><a (click)="openModal('contact')">Contact</a></p> -->
+    <p><a (click)="openModal('contact')">Contact</a></p>
     <div id="social">
       <p><a href="https://www.facebook.com/Gx.Edg/" target="_blank"><fa-icon [icon]="faFacebook"></fa-icon></a></p>
       <p><a href="https://www.instagram.com/geekonix" target="_blank"><fa-icon [icon]="faInsta"></fa-icon></a></p>

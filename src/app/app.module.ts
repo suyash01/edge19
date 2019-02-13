@@ -16,10 +16,13 @@ import { LogosComponent } from './logos/logos.component';
 import { SubEventsComponent } from './sub-events/sub-events.component';
 import { TeamComponent } from './team/team.component';
 import { SponsorsComponent } from './sponsors/sponsors.component';
+import { IntraComponent } from './intra/intra.component';
 
 import { HomeService } from './services/home.service';
 import { EventService } from './services/event.service';
 import { MegaEventService } from './services/mega-event.service';
+import { IntraEventService } from './services/intra-event.service';
+import { HighlightsComponent } from './highlights/highlights.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,9 @@ import { MegaEventService } from './services/mega-event.service';
     LogosComponent,
     SubEventsComponent,
     TeamComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    IntraComponent,
+    HighlightsComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +49,8 @@ import { MegaEventService } from './services/mega-event.service';
   providers: [
     HomeService,
     EventService,
-    MegaEventService
+    MegaEventService,
+    IntraEventService
   ],
   bootstrap: [AppComponent]
 })

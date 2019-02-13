@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgxSmartModalService } from 'ngx-smart-modal';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
     <app-logos></app-logos>
     <router-outlet></router-outlet>
     <ngx-smart-modal #myModal identifier="myModal" customClass="nsm-dialog-animation-fade">
+      <button type="button" (click)="close()" aria-label="Close" class="nsm-dialog-btn-close">&times;</button>
       <div [innerHTML]="myModal.getData()"></div>
     </ngx-smart-modal>
   `,
@@ -19,6 +21,12 @@ export class AppComponent implements OnInit {
 	myParams: object = {};
 	width: number = 100;
   height: number = 100;
+
+  constructor(private ngxSmartModalService: NgxSmartModalService) {}
+
+  close() {
+    this.ngxSmartModalService.getModal("myModal").close();
+  }
 
   ngOnInit(){
 

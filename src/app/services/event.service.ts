@@ -8,6 +8,7 @@ export class EventService {
     {
       id: "ca",
       icon: "compute-aid.svg",
+      name: "Compute@id",
       subEvents: [
         {
           id: "flawless",
@@ -15,41 +16,102 @@ export class EventService {
           icon: "events/compute-aid/flawless.svg",
           class: "deg0",
           desc: `<h1>Flawless</h1>
-            <p>If coding is your passion and whenever you see a problem you cannot wait to get down to code it, then this is the perfect event for you. Code your heart out and race with the others to win the battle of wits and will. Be Flawless!</p>`
+                <p>If coding is your passion and whenever you see a problem you cannot wait to get down to code it, then this is the perfect event for you. Code your heart out and race with the others to win the battle of wits and will. Be Flawless!</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Each team can have either 2 or 3 members.</li>
+                  <li>This event will consist of 2 rounds of coding: Preliminary Round & Final Round</li>
+                </ul>
+                <h3>Round 1</h3>
+                <p>It will be an elimination round where the participants will have to solve 5 questions in a duration of 3 hours. The teams will be judged based on the number of problems they will solve and the time taken to solve the problems. The teams with the best performances will qualify for the next round.</p>
+                <h3>Round 2</h3>
+                <p>The ultimate showdown will take place between the teams selected from the previous round. The duration of this round is going to be 3 hours. The number of questions in this round will be declared on spot on the day of the finals. Again, like the prelims the teams will be judged based on the number of problems they will solve and the time taken to solve the problems.</p>
+                <h3>Contact</h3>
+                <p>Raja Sachin - 9062647976</p>
+                <p>Avnish Singh - 9162023260</p>`
         },
         {
           id: "bughunt",
           name: "Bug Hunt",
           icon: "events/compute-aid/bug-hunt.svg",
           class: "deg30",
-          desc: `<h1>Bug Hunt</h1>`
+          desc: `<h1>Bug Hunt</h1>
+                <p>Do you often find faults in others' codes? Or are you always on the hunt for errors whenever you see a code? Well, then this event might just be for you. Find out the trickiest of bugs in the simplest codes and correct them in the shortest and smartest way possible. Beat the others to the finish and claim the prize.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Each team can have either 1 or 2 members.</li>
+                  <li>The coordinators have the right to change the rules and judging criteria of the contest at any time they deem fit.</li>
+                </ul>
+                <h3>Round 1</h3>
+                <p>It is an MCQ round on languages C, C++ or JAVA. This round will test the fundamental skill of participants in the language they choose. Team qualifies on basis of performance.</p>
+                <h3>Round 2</h3>
+                <p>It is going to be a Debugging Round. Again C, C++ and Java will be the languages of choice for the teams (Teams are allowed to choose a different language for this round). All the teams will be provided with some buggy code snippets and they will have to correct these code snippets in the minimum number of steps possible. Teams will be marked based on the number of steps they take to correct a code snippet and also the time taken to correct it.</p>
+                <h3>Contact</h3>
+                <p>Shreya Agrawal - 9836566212</p>
+                <p>Abhishek Das - 7033534472</p>`
         },
         {
           id: "crypto",
           name: "Cryptoquest",
-          icon: "events/compute-aid/bug-hunt.svg",
+          icon: "events/compute-aid/cryptoquest.svg",
           class: "deg330",
-          desc: `<h1>CryptoQuest</h1>`
+          desc: `<h1>CryptoQuest</h1>
+                <p>Can you solve the cipher above and make a meaningful sentence out of it? Well if you can then you are made for this event. In this event you need to be calm and gather all your wits to make meaning of most of the questions. Get ready for a cryptic experience!!!</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Each team can have either 1 or 2 members.</li>
+                  <li>Various questions involving ciphers and steganography will be provided to you. You will simply have to give us the flags, which will be hidden within the questions.</li>
+                  <li>Knowledge of computer programming won’t be required to solve the problems, although it may help to solve some problems faster.</li>
+                  <li>The event will be conducted on a Linux Distro like Ubuntu. Basic knowledge of such an environment, can prove helpful during the event</li>
+                  <li>Teams won’t be allowed to use any external electronic devices.</li>
+                  <li>Internet access may be provided to the participants if the co-ordinators decide that any question will require it. In case it is not provided, we will provide you with almost all the knowledge, you will require to crack the questions.</li>
+                  <li>In the event of a tie, the team to solve the most difficult questions first will be considered the winner.</li>
+                  <li>The co-ordinators have the right to change the rules and judging criteria of the contest at any time they deem fit.</li>
+                </ul>
+                <h3>Contacts</h3>
+                <p>Suyash Mittal - 7044793121</p>
+                <p>Radhika Mohta - 9163981049</p>`
         },
         {
           id: "codeout",
           name: "CodeOut",
-          icon: "events/compute-aid/bug-hunt.svg",
+          icon: "events/compute-aid/code-out.svg",
           class: "deg180",
-          desc: `<h1>CodeOut</h1>`
+          desc: `<h1>CodeOut</h1>
+                <p>Won’t be able to come to the onsite events? Or maybe coding is your passion and you always want more problems to solve? If yes, then this online event is for you. Gear up and get ready for a bout of coding on your favourite coding platform CodeChef and stand a chance to win exciting cash prizes from the comfort of your home. Are you up for the challenge?</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>This is an individual event.</li>
+                  <li>Code Out is a coding contest which will be held on the CodeChef platform. This is going to be an individual contest for the duration of 3 hours in which you need to solve a given number of programming problems.</li>
+                  <li>For this event you need to have a CodeChef handle (an account) using which you can submit your solutions. Also please go through the CodeChef Code of Conduct before participating in the event and abide by all the rules of the platform.</li>
+                  <li>Link will be available on a later date.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Raja Sachin - 9062647976</p>
+                <p>Indranil Choudhary - 9635874015</p>`
         },
         {
           id: "code-relay",
           name: "Code Relay",
-          icon: "events/compute-aid/bug-hunt.svg",
+          icon: "events/compute-aid/code-relay.svg",
           class: "deg150",
-          desc: `<h1>Code Relay</h1>`
+          desc: `<h1>Code Relay</h1>
+                <p>TBU</p>`
+        },
+        {
+          id: "webdev",
+          name: "Web Dev",
+          icon: "events/compute-aid/web-dev.svg",
+          class: "deg210",
+          desc: `<h1>Web Dev</h1>
+                <p>TBU</p>`
         }
       ]
     },
     {
       id: "robotics",
       icon: "robotics.svg",
+      name: "Robotics",
       subEvents: [
         {
           id: "roborace",
@@ -496,8 +558,183 @@ export class EventService {
       ]
     },
     {
+      id: "cc",
+      icon: "cyber-crusade.svg",
+      name: "Cyber Crusade",
+      subEvents: [
+        {
+          id: "csgo-pro",
+          name: "CS GO - Pro League",
+          icon: "events/cyber-crusade/csgo-pro.png",
+          class: "deg0",
+          desc: `<h1>CS GO - Pro League</h1>
+                <p>Tailor crafted for the professionals. Bigger platform. Bigger stakes. CSGO. 5v5 standard matchmaking rules as always.</p>
+                <h3>Maps</h3>
+                <p>(Valve official versions of the maps in the Active Duty Map Group)</p>
+                <ul>
+                  <li>De_cache</li>
+                  <li>De_cbble</li>
+                  <li>De_inferno</li>
+                  <li>De_nuke</li>
+                  <li>De_mirage</li>
+                  <li>De_train</li>
+                  <li>De_overpass</li>                
+                </ul>
+                <h3>Map Selection</h3>
+                <ul>
+                  <li>A coin flip decides which is Team </li>
+                  <li>Best of one: Ban A-Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
+                  <li>Best of three: Ban B - Ban A - Pick B - Pick A - Ban A - Ban B - Last map remaining is the tie breaker</li>
+                  <li>Side choice (CT/T) for every map is decided by a knife round.</li>
+                </ul>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Freeze Time - 15 seconds</li>
+                  <li>Round Time - One minute and 55 seconds</li>
+                  <li>Regulation Start Money - $800</li>
+                  <li>Regulation Side Selection - Knife for sides</li>
+                  <li>Overtime Max Rounds - 6</li>
+                  <li>Overtime Start Money - $10,000</li>
+                  <li>Overtime Side Selection - In overtime, teams first play the side which they last played in regulation</li>
+                </ul>
+                <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable)</p>
+                <h3>Contact</h3>
+                <p>Swastik Sanaddar Chowdhury - 9874436481</p>`
+        },
+        {
+          id: "csgo-col",
+          name: "CS GO - College League",
+          icon: "events/cyber-crusade/csgo-clg.png",
+          class: "deg30",
+          desc: `<h1>CS GO - College League</h1>
+                <p>CSGO, the fourth game in the 'Counter-Strike' series, consists of team based action where two teams battle it out with gun and strategies. Restricted to college/school students only. 5v5 standard matchmaking rules as always.</p>
+                <h3>Maps</h3>
+                <p>(Valve official versions of the maps in the Active Duty Map Group)</p>
+                <ul>
+                  <li>De_cache</li>
+                  <li>De_cbble</li>
+                  <li>De_inferno</li>
+                  <li>De_nuke</li>
+                  <li>De_mirage</li>
+                  <li>De_train</li>
+                  <li>De_overpass</li>                
+                </ul>
+                <h3>Map Selection</h3>
+                <ul>
+                  <li>A coin flip decides which is Team </li>
+                  <li>Best of one: Ban A-Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
+                  <li>Best of three: Ban B - Ban A - Pick B - Pick A - Ban A - Ban B - Last map remaining is the tie breaker</li>
+                  <li>Side choice (CT/T) for every map is decided by a knife round.</li>
+                </ul>
+                <h3>Rules</h3>
+                <ul>
+                  <li>All players in a team must be from the same college.</li>
+                  <li>All participants must bring their college/school id card.</li>
+                  <li>Freeze Time - 15 seconds</li>
+                  <li>Round Time - One minute and 55 seconds</li>
+                  <li>Regulation Start Money - $800</li>
+                  <li>Regulation Side Selection - Knife for sides</li>
+                  <li>Overtime Max Rounds - 6</li>
+                  <li>Overtime Start Money - $10,000</li>
+                  <li>Overtime Side Selection - In overtime, teams first play the side which they last played in regulation</li>
+                </ul>
+                <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable)</p>
+                <h3>Contact</h3>
+                <p>Ahana Sarkar - 9674362280</p>`
+        },
+        {
+          id: "fifa-pro",
+          name: "FIFA - Pro League",
+          icon: "events/cyber-crusade/fifa.png",
+          class: "deg180",
+          desc: `<h1>FIFA - Pro League</h1>
+                <p>Experience the all new FIFA 18 with stakes higher than ever. Enough said.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Classic 11 and World 11 are not allowed.</li>
+                  <li>Start match with a back pass after Kickoff.</li>
+                  <li>Legacy defending is not allowed.</li>
+                  <li>No Custom Formations and Tactics.</li>
+                  <li>Offside On, Injuries off</li>
+                  <li>No updated squads are allowed</li>
+                  <li>Prelims Match Duration : 4min</li>
+                  <li>Semis Match Duration : 4min</li>
+                  <li>Finals Match Duration : 6min</li>
+                  <li>Bring your own controllers and the respective drivers needed (if required).</li>
+                  <li>The admin’s decision, in any case, is final and irrevocable</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Arkadeep Dey - 9051822311</p>`
+        },
+        {
+          id: "fifa-col",
+          name: "FIFA - College League",
+          icon: "events/cyber-crusade/fifa14.png",
+          class: "deg150",
+          desc: `<h1>FIFA - College League</h1>
+                <p>This Event is open for all those who take foootball as an emotion. You got what it takes? Come show us.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Classic 11 and World 11 are not allowed.</li>
+                  <li>Start match with a back pass after Kickoff.</li>
+                  <li>Legacy defending is not allowed.</li>
+                  <li>No Custom Formations and Tactics.</li>
+                  <li>Offside On, Injuries off</li>
+                  <li>No updated squads are allowed</li>
+                  <li>Prelims Match Duration : 4min</li>
+                  <li>Semis Match Duration : 4min</li>
+                  <li>Finals Match Duration : 6min</li>
+                  <li>Bring your own controllers and the respective drivers needed (if required).</li>
+                  <li>Participants must bring their college/school id card.</li>
+                  <li>The admin’s decision, in any case, is final and irrevocable</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Arkadeep Dey - 9051822311</p>`
+        },
+        {
+          id: "pubg",
+          name: "PUBG Mobile",
+          icon: "events/cyber-crusade/pubg.png",
+          class: "deg210",
+          desc: `<h1>PUBG Mobile</h1>
+                <p>TBU</p>`
+        },
+        {
+          id: "dota",
+          name: "DOTA 2",
+          icon: "events/cyber-crusade/dota2.png",
+          class: "deg330",
+          desc: `<h1>DOTA 2</h1>
+                <p>The most popular MOBA game in the world.Enter into battle with one of over a hundred DOTA heroes. Here there is always something new to discover.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Competition method: 5 versus 5</li>
+                  <li>Game mode: Captain's Mode (CM)</li>
+                  <li>Side and first ban will be determined by toss</li>
+                  <li>Victory condition: The first team to destroy the other team’s ancient.</li>
+                  <li>Players must be prepared before their scheduled games [Practice time will not be provided]</li>
+                  <li>All competitors must be present 15 minutes prior to their scheduled match.</li>
+                  <li>Players who are registered must be the ones to play.</li>
+                  <li>If a reserve is needed, only the registered reserves will be allowed to play.</li>
+                  <li>Only two (2) reserves are allowed per team. They should be registered separately.</li>
+                  <li>No player is allowed to play for more than one team.</li>
+                  <li>If any player disconnects during a match, the game will be paused instantly until the player has reconnected.</li>
+                  <li>Other than above issues each team can only pause the game for not more than 3 minutes.</li>
+                  <li>Trash talking or violence will not be tolerated and suitable action will be taken.</li>
+                  <li>Any cheats, hacks or exploits are illegal and not allowed in play. A punishment will be served to the offender which will be determined by the administration.</li>
+                  <li>A game is finished, when an Ancient Fortress is destroyed.</li>
+                  <li>Any team that fails to appear for any scheduled Standard Match will be charged with a forfeit. Similarly, a forfeit will result when a team does not have the minimum number of required players in the time allocated to start a match. A Standard Match forfeit will count as a loss.</li>
+                  <li>In case of any other issues Admin’s decision is final.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Jyotishman Chakraborty - 8910664354</p>`
+        }
+      ]
+    },
+    {
       id: "infocus",
       icon: "infocus.svg",
+      name: "Infocus",
       subEvents: [
         {
           id: "shoot-m-up",
@@ -601,6 +838,7 @@ export class EventService {
     {
       id: "elevation",
       icon: "elevation.svg",
+      name: "Elevation",
       subEvents: [
         {
           id: "cadomania",
@@ -683,6 +921,7 @@ export class EventService {
     {
       id: "newron",
       icon: "newron.svg",
+      name: "Newron",
       subEvents: [
         {
           id: "quiz",
@@ -760,6 +999,7 @@ export class EventService {
     {
       id: "mm",
       icon: "money-matters.svg",
+      name: "Money Matters",
       subEvents: [
         {
           id: "b-plan",
@@ -851,6 +1091,7 @@ export class EventService {
     {
       id: "ci",
       icon: "create-it.svg",
+      name: "Create It",
       subEvents: [
         {
           id: "rtr",
@@ -898,7 +1139,174 @@ export class EventService {
     {
       id: "fff",
       icon: "food-for-fun.svg",
-      subEvents: []
+      name: "Food For Fun",
+      subEvents: [
+        {
+          id: 'relay',
+          name: 'Food Relay',
+          icon: 'events/food-for-fun/food-relay.svg',
+          class: 'deg30',
+          desc: `<h1>Food Relay</h1>`
+        },
+        {
+          id: 'xquizit',
+          name: 'Xquizit',
+          icon: 'events/food-for-fun/xquizit.svg',
+          class: 'deg0',
+          desc: `<h1>Xquizit</h1>`
+        },
+        {
+          id: 'creation',
+          name: 'Creation X Nihilo',
+          icon: 'events/food-for-fun/creation-x-nihilo.svg',
+          class: 'deg330',
+          desc: `<h1>Creation X Nihilo</h1>`
+        },
+        {
+          id: 'fpl',
+          name: 'Food Product Labelling',
+          icon: 'events/food-for-fun/food-labelling.svg',
+          class: 'deg165',
+          desc: `<h1>Food Product Labelling</h1>`
+        },
+        {
+          id: 'presentation',
+          name: 'Display Presentation',
+          icon: 'events/food-for-fun/display-presentation.svg',
+          class: 'deg195',
+          desc: `<h1>Display Presentation</h1>`
+        }
+      ]
+    },
+    {
+      id: "innovati",
+      icon: "innovati.svg",
+      name: "Innovati",
+      subEvents: [
+        {
+          id: "pv",
+          name: "Project View",
+          icon: "events/innovati/project-view.svg",
+          class: "deg0",
+          desc: `<h1>Project View</h1>
+                <p>Any completed or underdevelopment engineering based college project, either hardware implemented or simulated, or software based implementation, may be offered for consideration. Any undergraduate level engineering project is welcome, and would most likely be encouraged towards improvement holistically. A worthy project would be appraised and duly rewarded, along with assistance towards development, patenting and publication.</p>
+                <p>NOTE: IF ANYONE HAS NO WORKING MODEL THEN THEY CAN COME UP WITH THEIR INNOVATIVE IDEAS WITH A POWERPOINT PRESENTATION ON ANY OF THE ABOVE MENTIONED TOPIC. THIS IS A DIFFERENT CATEGORY WITH ATTRACTIVE PRIZE MONEY OTHER THAN EXHIBITION.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Participant studying in undergraduate or postgraduate programs</li>
+                  <li>A team can consist of a maximum of 4 students.</li>
+                  <li>No two teams can have a common member (including during presentation session for the judges).</li>
+                  <li>Every participant should have a valid ID card of his/her institute/college.</li>
+                  <li>Students currently enrolled for an undergraduate/postgraduate program at their institute are eligible for the competition.</li>
+                  <li>To clear doubts regarding eligibility of concerned project and domain of the same, contact the enlisted contact persons in the contacts tab.</li>
+                  <li>NOTE: Eligibility may be constrained to some unforeseeable factors and hence, would be best determined subjectively by the concerned event heads, in consultation with jury. Any anomalies would be duly intimated. Till then, we encourage every project be submitted for appraisal.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Medha Mishra - 8013290587</p>
+                <p>Parshati Chaodhury - 8961807090</p>`
+        }
+      ]
+    },
+    {
+      id: "jlt",
+      icon: "just-like-that.svg",
+      name: "Just Like That",
+      subEvents: [
+        {
+          id: 'oms',
+          name: '1 Minute Stand',
+          icon: 'events/just-like-that/1-min-stand.svg',
+          class: 'deg30',
+          desc: `<h1>1 Minute Stand</h1>`
+        },
+        {
+          id: 'ez',
+          name: 'Edge Zoom',
+          icon: 'events/just-like-that/edge-zoom.svg',
+          class: 'deg330',
+          desc: `<h1>Edge Zoom</h1>`
+        },
+        {
+          id: 'udaan',
+          name: 'Udaan',
+          icon: 'events/just-like-that/udaan.svg',
+          class: 'deg180',
+          desc: `<h1>Udaan</h1>`
+        }
+      ]
+    },
+    {
+      id: "fun",
+      icon: "fun-events.svg",
+      name: "Fun Events",
+      subEvents: [
+        {
+          id: "body",
+          name: "Body Zorbing",
+          icon: "events/fun-events/body-zorbing.svg",
+          class: "deg0",
+          desc: `<h1>Body Zorbing</h1>
+                <p>This fun event procures the highest participation every year since this high energy, fun-filled activity has been a treat for the participants. Here participants secured themselves in transparent balls and set everybody else laughing their hearts out while they fell down, bumped on each other or rolled down, trying to overthrow their opponents.</p>`
+        },
+        {
+          id: "pong",
+          name: "Red Bull Pong",
+          icon: "events/fun-events/red-bull-pong.svg",
+          class: "deg180",
+          desc: `<h1>Red Bull Pong</h1>
+                <p>Sponsored by Red Bull this event became quite popular amongst the youth. This event judged how many balls each player could land into the red bull cups. The player with the maximum score was awarded by Red Bull.</p>`
+        }
+      ]
+    },
+    {
+      id: "designing",
+      icon: "design-event.svg",
+      subEvents: [
+        {
+          id: 'mc',
+          name: 'Motion Canvas',
+          icon: 'events/designing/motion-canvas.svg',
+          class: 'deg0',
+          desc: ``
+        },
+        {
+          id: 'pp',
+          name: 'Pixel Plot',
+          icon: 'events/designing/pixel-plot.svg',
+          class: 'deg180',
+          desc: ``
+        }
+      ]
+    },
+    {
+      id: "ciic",
+      icon: "ciic.svg",
+      subEvents: [
+        {
+          id: 'cp',
+          name: 'Crowd Pitch',
+          icon: 'events/ciic/crowd-pitch.svg',
+          class: 'deg30',
+          desc: `<h1>Crowd Pitch</h1>
+                <p>TBU</p>`
+        },
+        {
+          id: 'pr',
+          name: 'Pitch Right',
+          icon: 'events/ciic/pitch-right.svg',
+          class: 'deg330',
+          desc: `<h1>Pitch Right</h1>
+                <p>TBU</p>`
+        },
+        {
+          id: 'tm',
+          name: 'Troll Marketting',
+          icon: 'events/ciic/troll-marketting.svg',
+          class: 'deg180',
+          desc: `<h1>Troll Marketting</h1>
+                <p>TBU</p>`
+        }
+      ]
     }
   ];
 

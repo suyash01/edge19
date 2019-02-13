@@ -1,5 +1,5 @@
 <div id="container">
-  <a><img src="/assets/events/{{details['icon']}}" class="icon-center" alt="Edge"></a>
+  <a routerLink="/events"><img src="/assets/events/{{details['icon']}}" class="icon-center" alt="{{details['name']}}"></a>
   <div id="icons">
     <div *ngFor="let item of details['subEvents']">
       <div class="icon {{item.class}}">

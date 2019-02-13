@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
     {name: "home/events.svg", class: "deg30", caption: "Events", link: "/events"},
     {name: "home/mega-event.svg", class: "deg150", caption: "Mega Events", link: "/mega-events"},
     {name: "mega-events/edge-deeds.svg", class: "deg180", caption: "Edge Deeds", id: 'deeds'},
-    {name: "home/intra.svg", class: "deg0", caption: "Intra", id: 'intra'},
+    {name: "home/intra.svg", class: "deg0", caption: "Intra", link: '/intra'},
     {name: "home/highlights.svg", class: "deg210", caption: "Highlights", link: "/highlights"},
     {name: "home/about-us.svg", class: "deg330", caption: "About Us", id: 'about'}
   ];
@@ -30,8 +30,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(){ }
 
   openModal(id: string){
-    if(id==='intra')
-      window.location.href = 'http://intra.edg.co.in';
+    // if(id==='intra')
+    //   window.location.href = 'http://intra.edg.co.in';
     const desc = this.homeService.getDescription(id);
     this.ngxSmartModalService.resetModalData('myModal');
     this.ngxSmartModalService.setModalData(desc, 'myModal');
