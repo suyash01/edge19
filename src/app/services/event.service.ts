@@ -96,7 +96,20 @@ export class EventService {
           icon: "events/compute-aid/code-relay.svg",
           class: "deg150",
           desc: `<h1>Code Relay</h1>
-                <p>TBU</p>`
+                <h3>Rules</h3>
+                <ul>
+                  <li>Team of Two</li>
+                  <li>Two questions will be given, one to each participant.</li>
+                  <li>After the first 10/15 mins(depending on the question), both the participants need to change their position i.e., both the participants will swap their codes and then complete each other's code.</li>
+                  <li>The team member cannot make any changes(except syntax errors) in the previous code written by his/her team member.</li>
+                  <li>Any sort of comments in the code is not allowed.</li>
+                  <li>The team members will not be allowed to interact with each other during the event.</li>
+                  <li>At least one question must be solved for a team to be eligible for the prize money.</li>
+                  <li>Winner will be decided on the basis of time taken to solve the questions</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Pranjal Verma - 8697483130</p>
+                <p>Alka Prasad - 9836355994</p>`
         },
         {
           id: "webdev",
@@ -104,7 +117,23 @@ export class EventService {
           icon: "events/compute-aid/web-dev.svg",
           class: "deg210",
           desc: `<h1>Web Dev</h1>
-                <p>TBU</p>`
+                <h1>Web Dev</h1>
+                <p>Tired of seeing same old inflexible websites. Try working on User Experience and Responsive Web Design.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Each team can have either single or 2 members.</li>
+                  <li>This event will consist of two rounds</li>
+                  <li>Round 1 will be of 1.5 hrs and a 2 Hrs of Final Round</li>
+                  <li>The Judge's call will be final</li>
+                  <li>In final Round bettor design will get more credits</li>
+                </ul>
+                <h3>Round 1</h3>
+                <p>Basic MCQs on Frontend Technologies. A webpage will be given, tweak here and there to obtain a responsive web page</p>
+                <h3>Round 2</h3>
+                <p>Build a website out of the given WireFrame.</p>
+                <h3>Contact</h3>
+                <p>Suyash Mittal - 7044793121</p>
+                <p>Shreya Agrawal - 9836566212</p>`
         }
       ]
     },
@@ -200,10 +229,10 @@ export class EventService {
               <li>Any kind of activity (repairing, battery handling, pneumatics systems etc.) which may cause damage to the surroundings during the stay of the teams in the competition area should not be carried out without the consent of organizers. Not following this rule may result in disqualification.</li>
               <li>All the resources provided at the time of competition from the organizers.</li>
               <li>Once the robots have entered into the arena, no team member can enter into the arena at any point of time. In case if a fight has to be halted in between and some changes have to be done in the arena or condition on the robot(s), it will be done by organizers only.</li>
-              <li>Dimensons and Fabrications : The machine should fit in a box of dimensions 500mm x 500mm x 500mm (l x b x h) at any given point during the match.</li>
+              <li>The machine should fit in a box of dimensions 750mm x 750mm x 750mm (l x b x h) at any given point during the match.</li>
               <li>The external device used to control the machine or any external tank is not included in the size constraint.</li>
-              <li>The machine should not exceed 45 kg + 10% Tolerance in weight including the weight of pneumatic source/tank. In case of wireless robot, if the battery is on-board then the weight should not exceed 55 kg.</li>
-              <li>Power Sources: The machine can be powered electrically only. Use of an IC engine in any form is not allowed.</li>
+              <li>The machine should not exceed 50 kg + 10% Tolerance in weight including the weight of pneumatic source/tank. In case of wireless robot, if the battery is on-board then the weight should not exceed 60kg.</li>
+              <li>The machine can be powered electrically only. Use of an IC engine in any form is not allowed.</li>
               <li>Each team must prepare its own power sources. Only 220V volt AC sources will be provided at the arena, but can only be used in the form of DC voltage. The teams have to bring their own battery eliminators.</li>
               <li>The voltage difference between any two points in the machine should not be more than 36V DC at any point of time.</li>
               <li>All connections should be made safe to prevent short circuits and battery fires. Any unsafe circuitry may be asked to be replaced; failure to do so will result in disqualification.</li>
@@ -211,7 +240,7 @@ export class EventService {
               <li>Change of battery will not be allowed during the match.</li>
               <li>It is suggested to have extra batteries ready and charged up during competition so that on advancing to next level, you don't have to wait or suffer due to uncharged battery.</li>
               <li>If a team do not show up on allotted slot, they will be disqualified.</li>
-              <li>Mobility : All bots must have clearly visible and controlled mobility mechanism in order to compete.</li>
+              <li>All bots must have clearly visible and controlled mobility mechanism in order to compete.</li>
               <li>Methods of mobility may include: Rolling (wheels, tracks or the whole robot), Walking (linear actuated legs with no rolling or cam operated motion) & Shuffling (rotational cam operated legs).</li>
               <li>Jumping and hopping is not allowed</li>
               <li>Flying (using aerofoil, helium balloons, ornithopters, etc.) is not allowed.</li>
@@ -222,7 +251,7 @@ export class EventService {
               <li>The wire should be sufficiently long so as to remain slack at all time during the competition.</li>
               <li>In case of wireless remote controls, the remote should have atleast two frequency operations to prevent interference with other team.</li>
               <li>Teams are recommended to attach a pipe to bot in vertical direction through which wires come out. The length of pipe will not be considered in bot dimension.</li>
-              <li>Weapon Systems: Robots can have any kind of cutters, flippers, saws, lifting devices,spinning hammers etc. as weapons with following exceptions.</li>
+              <li>Robots can have any kind of cutters, flippers, saws, lifting devices,spinning hammers etc. as weapons with following exceptions.</li>
               <ul>
                 <li>Any kind of inflammable liquid / liquid based weapons.</li>
                 <li>Smoke or dust weapons.</li>
@@ -583,7 +612,7 @@ export class EventService {
                 <h3>Map Selection</h3>
                 <ul>
                   <li>A coin flip decides which is Team </li>
-                  <li>Best of one: Ban A-Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
+                  <li>Best of one: Ban A - Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
                   <li>Best of three: Ban B - Ban A - Pick B - Pick A - Ban A - Ban B - Last map remaining is the tie breaker</li>
                   <li>Side choice (CT/T) for every map is decided by a knife round.</li>
                 </ul>
@@ -622,7 +651,7 @@ export class EventService {
                 <h3>Map Selection</h3>
                 <ul>
                   <li>A coin flip decides which is Team </li>
-                  <li>Best of one: Ban A-Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
+                  <li>Best of one: Ban A - Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
                   <li>Best of three: Ban B - Ban A - Pick B - Pick A - Ban A - Ban B - Last map remaining is the tie breaker</li>
                   <li>Side choice (CT/T) for every map is decided by a knife round.</li>
                 </ul>
@@ -697,7 +726,21 @@ export class EventService {
           icon: "events/cyber-crusade/pubg.png",
           class: "deg210",
           desc: `<h1>PUBG Mobile</h1>
-                <p>TBU</p>`
+                <p>Lost your beloved and became a sinner? then you gotta be hungry for a chicken dinner.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>The game mode will be TPP - DUO</li>
+                  <li>The map for all three match-modes will be Erangel.</li>
+                  <li>Use of Aimbots, Wall Hacks, Speedhacks, or any form of unfair advantage-abuse (Teaming up with opponent) is strictly forbidden. All players will be closely monitored and if anyone is caught cheating, that player will be disqualified and banned from all tournaments organised by Cyber Crusade and EDGE.</li>
+                  <li>A fixed timeframe will be provided for the players to join the match room, failing to do so will result in disqualification for the match.</li>
+                  <li>Players must bring the exact same registered PUBG Mobile ID as mentioned in the form at the time of the registration</li>
+                  <li>Playing with any kind of emulator is strictly prohibited.</li>
+                  <li>Organisers can authorise any new rules for the betterment of the tournament.</li>
+                  <li>The room referee's decisions will be final.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>ANIRBAN SUR : +91 89812 57401</p>
+                <p>SUBHAJIT KONAR : +91 94745 94123</p>`
         },
         {
           id: "dota",
@@ -740,7 +783,7 @@ export class EventService {
           id: "shoot-m-up",
           name: "Shoot-M-Up",
           icon: "events/infocus/shoot-m-up.svg",
-          class: "deg0",
+          class: "deg20",
           desc: `<h1>Shoot-M-Up</h1>
             <p>In this live photography competition you need to think on your feet and be creative at the same time. This mobile photography competition where your photographic skills combined with creative approach and innovative ideas can bag you the first prize.</p>
             <h3>Rules</h3>
@@ -751,37 +794,38 @@ export class EventService {
               <li>Tempering with EXIF is also not allowed.</li>
               <li>Mild post processing like Colour correction, Light editing, Sharpness enhancements are allowed.</li>
               <li>Cropping up to 15% is allowed maintaining aspect ratio.</li>
+              <li>Runtime max 30mins.</li>
             </ul>
             <h3>Contact</h3>
             <p>Rohit Deb - 9038220806</p>
             <p>Indrajit Dhara - 9804179878</p>`
         },
-        {
-          id: "insta-edit",
-          name: "Insta-Edit",
-          icon: "events/infocus/insta-edit.svg",
-          class: "deg30",
-          desc: `<h1>Insta-Edit</h1>
-            <p>INSTA-EDIT is an editing competition where your creative mind blends perfectly with your Photoshop skills to create your masterpiece and who knows, you might bag the first prize</p>
-            <h3>Rules</h3>
-            <ul>
-              <li>Live editing of a given picture.</li>
-              <li>Incoming editing submissions shall be screened for originality, authenticity & maintaining regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libelous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". But the author of the edited image does not retain full ownership of the edited image. Geekonix holds the copyright of the photo. Further reproductions or misuses of the given picture will be counted as a criminal offence and stringent actions will be undertaken.</li>
-              <li>5 photos will be given to you. You can choose to edit any one photo of your wish.</li>
-              <li>No manipulation of background is allowed.</li>
-              <li>You will be given 1.5 hours to showcase your editing skills.</li>
-              <li>Participants are requested to bring their own laptop.</li>
-              <li>Participants who will be editing in mobile, can choose any app of their choices.</li>
-            </ul>
-            <h3>Contact</h3>
-            <p>Karan Paul - 8906833180</p>
-            <p>Rohit Deb - 9038220806</p>`
-        },
+        // {
+        //   id: "insta-edit",
+        //   name: "Insta-Edit",
+        //   icon: "events/infocus/insta-edit.svg",
+        //   class: "deg30",
+        //   desc: `<h1>Insta-Edit</h1>
+        //     <p>INSTA-EDIT is an editing competition where your creative mind blends perfectly with your Photoshop skills to create your masterpiece and who knows, you might bag the first prize</p>
+        //     <h3>Rules</h3>
+        //     <ul>
+        //       <li>Live editing of a given picture.</li>
+        //       <li>Incoming editing submissions shall be screened for originality, authenticity & maintaining regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libelous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". But the author of the edited image does not retain full ownership of the edited image. Geekonix holds the copyright of the photo. Further reproductions or misuses of the given picture will be counted as a criminal offence and stringent actions will be undertaken.</li>
+        //       <li>5 photos will be given to you. You can choose to edit any one photo of your wish.</li>
+        //       <li>No manipulation of background is allowed.</li>
+        //       <li>You will be given 1.5 hours to showcase your editing skills.</li>
+        //       <li>Participants are requested to bring their own laptop.</li>
+        //       <li>Participants who will be editing in mobile, can choose any app of their choices.</li>
+        //     </ul>
+        //     <h3>Contact</h3>
+        //     <p>Karan Paul - 8906833180</p>
+        //     <p>Rohit Deb - 9038220806</p>`
+        // },
         {
           id: "insta-click",
           name: "Insta-Click",
           icon: "events/infocus/insta-click.svg",
-          class: "deg330",
+          class: "deg340",
           desc: `<h1>Insta-Click</h1>
             <p>A Live Event photography competition that will measure your creativity as well as innovative approach to photography.The best and the most extraordinary photograph clicked on the event day gets awarded.</p>
             <h3>Rules</h3>
@@ -860,8 +904,8 @@ export class EventService {
             </ul>
             <h3>Contact</h3>
             <p>Sanjit Shaw - 9093058470</p>
-            <p>Prashant Kumar Dubey - 9091397765</p>
-            <p>Srimonti Kundu - 8240253078</p>`
+            <p>Vishal Kumar - 7991176304</p>
+            <p>Prashant Kumar Dubey - 9091397765</p>`
         },
         {
           id: "nirmaan",
@@ -913,7 +957,7 @@ export class EventService {
             </ul>
             <h3>Contact</h3>
             <p>Sanjit Shaw - 9093058470</p>
-            <p>Vishal Kumar - 7991176304</p>
+            <p>Srimonti Kundu - 8240253078</p>
             <p>Saptarshi Bhattacharjee - 9051159470</p>`
         }
       ]
@@ -1110,7 +1154,7 @@ export class EventService {
             </ul>
             <h3>Contact</h3>
             <p>Medha Mishra - 8013290587</p>
-            <p>Parshati Chaodhury - 8961807090</p>`
+            <p>Parshati Chaudhury - 8961807090</p>`
         },
         {
           id: "mekanix",
@@ -1132,7 +1176,7 @@ export class EventService {
             </ul>
             <h3>Contact</h3>
             <p>Medha Mishra - 8013290587</p>
-            <p>Parshati Chaodhury - 8961807090</p>`
+            <p>Parshati Chaudhury - 8961807090</p>`
         }
       ]
     },
@@ -1146,35 +1190,99 @@ export class EventService {
           name: 'Food Relay',
           icon: 'events/food-for-fun/food-relay.svg',
           class: 'deg30',
-          desc: `<h1>Food Relay</h1>`
+          desc: `<h1>Food Relay</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>It consist of 4 sub games.</li>
+                  <li>Maximum 4 members and min 2 members in a group.</li>
+                  <li>Those who will finish the task first wins the game.</li>
+                  <li>The four games are-</li>
+                  <ul>
+                    <li>who am i</li>
+                    <li>riddles</li>
+                    <li>spot the difference</li>
+                    <li>Memory game</li>
+                  </ul>
+                </ul>
+                <h3>Contact</h3>
+                <p>Sanchari Kar - 6290283116</p>`
         },
         {
           id: 'xquizit',
           name: 'Xquizit',
           icon: 'events/food-for-fun/xquizit.svg',
           class: 'deg0',
-          desc: `<h1>Xquizit</h1>`
+          desc: `<h1>Xquizit</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>It's a quiz basically related to all the segments technical, general knowledge, sports, etc.</li>
+                  <li>One group may have min 2 members and maximum 4.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Sanchari Kar - 6290283116</p>`
         },
         {
           id: 'creation',
           name: 'Creation X Nihilo',
           icon: 'events/food-for-fun/creation-x-nihilo.svg',
           class: 'deg330',
-          desc: `<h1>Creation X Nihilo</h1>`
+          desc: `<h1>Creation X Nihilo</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>It's a model making competition with the raw meterials provided.</li>
+                  <li>Team may have min 2 members nd max 4 members.</li>
+                  <li>Time limit will be of 1:30 hr.</li>
+                  <li>The participants should hve a clear idea about the machines while explaining it to the judges.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Sanchari Kar - 6290283116</p>`
         },
         {
           id: 'fpl',
           name: 'Food Product Labelling',
           icon: 'events/food-for-fun/food-labelling.svg',
-          class: 'deg165',
-          desc: `<h1>Food Product Labelling</h1>`
+          class: 'deg150',
+          desc: `<h1>Food Product Labelling</h1>
+                <h3>Rules</h3>
+                <ul>
+
+                </ul>
+                <h3>Contact</h3>
+                <p>Sanchari Kar - 6290283116</p>`
         },
         {
           id: 'presentation',
           name: 'Display Presentation',
           icon: 'events/food-for-fun/display-presentation.svg',
-          class: 'deg195',
-          desc: `<h1>Display Presentation</h1>`
+          class: 'deg210',
+          desc: `<h1>Display Presentation</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Participants have to prepare a power point presentation related to various industry related problems nd have to give thenpossible solutions.</li>
+                  <li>In a group min 2 nd max 4 members.</li>
+                  <li>Time limit total of 20 mins.</li>
+                  <li>First 7 mins for the explaination of the topic.</li>
+                  <li>Last 3 min interactions with the judges.</li>
+                  <li>For topics visit the official Facebook page of food for fun.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Sanchari Kar - 6290283116</p>`
+        },
+        {
+          id: 'animate',
+          name: 'Animate',
+          icon: 'events/food-for-fun/animate.svg',
+          class: 'deg180',
+          desc: `<h1>Animate</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>This is an event where the participants have to prepare an advertisement for a specific food product in which ever possible way( like the tv advertisements).</li>
+                  <li>For The topics please follow the official facebook page of FOOD for FUN.</li>
+                  <li>Time limit min-30secs. To max 1 min.</li>
+                  <li>Group members- min-1 max-3</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Sanchari Kar - 6290283116</p>`
         }
       ]
     },
@@ -1203,7 +1311,7 @@ export class EventService {
                 </ul>
                 <h3>Contact</h3>
                 <p>Medha Mishra - 8013290587</p>
-                <p>Parshati Chaodhury - 8961807090</p>`
+                <p>Parshati Chaudhury - 8961807090</p>`
         }
       ]
     },
@@ -1216,22 +1324,29 @@ export class EventService {
           id: 'oms',
           name: '1 Minute Stand',
           icon: 'events/just-like-that/1-min-stand.svg',
-          class: 'deg30',
-          desc: `<h1>1 Minute Stand</h1>`
-        },
-        {
-          id: 'ez',
-          name: 'Edge Zoom',
-          icon: 'events/just-like-that/edge-zoom.svg',
-          class: 'deg330',
-          desc: `<h1>Edge Zoom</h1>`
+          class: 'deg0',
+          desc: `<h1>1 Minute Stand</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Use any format eg. normal video/boomerang/ rewind/ slo-mo etc. to make a 60 second long video.</li>
+                  <li>Make sure red and black color is present.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Pooja Priya - 9804673350</p>`
         },
         {
           id: 'udaan',
           name: 'Udaan',
           icon: 'events/just-like-that/udaan.svg',
           class: 'deg180',
-          desc: `<h1>Udaan</h1>`
+          desc: `<h1>Udaan</h1>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Paper plane should be present in the video.</li>
+                  <li>Paper plane should make a clear movement.</li>
+                </ul>
+                <h3>Contact</h3>
+                <p>Pooja Priya - 9804673350</p>`
         }
       ]
     },

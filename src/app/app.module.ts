@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { ParticlesModule } from 'angular-particle';
 import { CountdownModule } from 'ngx-countdown';
 import { NgxSmartModalModule } from 'ngx-smart-modal';
+import { DeferLoadModule } from '@trademe/ng-defer-load';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -44,6 +45,7 @@ import { HighlightsComponent } from './highlights/highlights.component';
     ParticlesModule,
     CountdownModule,
     FontAwesomeModule,
+    DeferLoadModule,
     NgxSmartModalModule.forRoot()
   ],
   providers: [

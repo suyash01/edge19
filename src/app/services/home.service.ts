@@ -8,11 +8,11 @@ export class HomeService {
   home = [{
     id: 'about',
     desc: `<h1>Techno Main Salt Lake</h1>
-          <p><b>Techno India</b> is an engineering and management college located in West Bengal. Established in 2001 by the Techno India group, it offers both undergraduate and postgraduate courses in various engineering, computer and business disciplines. The college is AICTE approved institution affiliated to West Bengal University of technology. Since its inception, TIG group has strengthened its original emphasis on science and engineering and expanded into management and various other areas.</p>
+          <p><b>Techno Main</b> is an engineering and management college located in West Bengal. Established in 2001 by the Techno India group, it offers both undergraduate and postgraduate courses in various engineering, computer and business disciplines. The college is AICTE approved institution affiliated to West Bengal University of technology. Since its inception, TIG group has strengthened its original emphasis on science and engineering and expanded into management and various other areas.</p>
           <h1>Geekonix</h1>
-          <p><b>Geekonix</b> is the official science and technology society of Techno India, Salt Lake. It was formed back in 2004-2005 with the sole purpose of providing students with opportunities for enhancing their creativity and developing a pathway for exposure for the students zealous in the technical field. Under Geekonix we have various clubs like Robotics Robopalz Club (RRC), Curbrain and many more. With time, Geekonix has grown into a centre of innovation and technical expertise.
+          <p><b>Geekonix</b> is the official science and technology society of Techno Main, Salt Lake. It was formed back in 2004-2005 with the sole purpose of providing students with opportunities for enhancing their creativity and developing a pathway for exposure for the students zealous in the technical field. Under Geekonix we have various clubs like Robotics Robopalz Club (RRC), Curbrain and many more. With time, Geekonix has grown into a centre of innovation and technical expertise.</p>
           <h1>Edge</h1>
-          <p><b>Edge</b> - The annual technical and management festival of Techno India salt lake, organised by the members of its official science club Geekonix, is a marvel in itself. It was first conducted in the year 2007 and is now one of the largest technical fests of the region par excellence. It is a three-day long festival encompassing a wide range of events with prize money of up to 7 lakhs and witnesses the largest footfall in the region with participants from all over the country. Edge hosts an array of over 40 events under the categories: Robotics, Cyber Crusade (Gaming), Compute Aid, Newron, Infocus, Elevation, Money Matters, Food for fun, Innovati and other fun events; among which Gaming and Robotics acquire the foremost position. After eleven successful years that saw promising talents and immense reception, this time EDGE’18 is set to break all the boundaries and promises to be the unprecedented celebration of budding talent, technical excellence and innovative minds.`
+          <p><b>Edge</b> - The annual technical and management festival of Techno Main salt lake, organised by the members of its official science club Geekonix, is a marvel in itself. It was first conducted in the year 2007 and is now one of the largest technical fests of the region par excellence. It is a three-day long festival encompassing a wide range of events with prize money of up to 7 lakhs and witnesses the largest footfall in the region with participants from all over the country. Edge hosts an array of over 40 events under the categories: Robotics, Cyber Crusade (Gaming), Compute Aid, Newron, Infocus, Elevation, Money Matters, Food for fun, Innovati and other fun events; among which Gaming and Robotics acquire the foremost position. After eleven successful years that saw promising talents and immense reception, this time EDGE’19 is set to break all the boundaries and promises to be the unprecedented celebration of budding talent, technical excellence and innovative minds.</p>`
   },
   {
     id: 'merch',
@@ -37,15 +37,23 @@ export class HomeService {
   {
     id: 'accomodation',
     desc: `<h1>Accomodation</h1>
-          <p>Accomodation is being made available for participants from outside Kolkata, on a first-come-first-serve basis. If you want to avail accomodation please fill up the form here. If you have any questions regarding the same, please contact the undersigned.</p>
-          <br>
-          <h3>Contact</h3>
-          <p>Siddharth Verma - 7688080223</p>`
+          <div class="content-centered">
+            <p>Accomodation is being made available for participants from outside Kolkata, on a first-come-first-serve basis. If you want to avail accomodation please fill up the form here. If you have any questions regarding the same, please contact the undersigned.</p>
+            <br>
+            <a href="https://goo.gl/forms/PD1RDRL1VZIkAghr2" target="_blank"><p class="button">Form Link</p></a>
+            <br>
+            <h3>Contact</h3>
+            <p>Siddharth Verma - 7688080223</p>
+          </div>`
   },
   {
     id: 'reg',
     desc: `<h1>Schedule & Registration</h1>
-          <p>To Be Updated</p>`
+          <div class="content-centered">
+            <p>Registrations are now open, use the link below to register online</p>
+            <br>
+            <a href="https://goo.gl/forms/aKWsnxsgQ6Zoxtpc2" target="_blank"><p class="button">Form Link</p></a>
+          </div>`
   },
   {
     id: 'contact',

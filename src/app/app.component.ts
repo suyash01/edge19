@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PlatformLocation } from '@angular/common';
 import { NgxSmartModalService } from 'ngx-smart-modal';
 
 @Component({
@@ -7,8 +8,9 @@ import { NgxSmartModalService } from 'ngx-smart-modal';
     <particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
     <app-logos></app-logos>
     <router-outlet></router-outlet>
-    <ngx-smart-modal #myModal identifier="myModal" customClass="nsm-dialog-animation-fade">
+    <ngx-smart-modal #myModal identifier="myModal" customClass="nsm-dialog-animation-fade" [closable]="false">
       <button type="button" (click)="close()" aria-label="Close" class="nsm-dialog-btn-close">&times;</button>
+      <br>
       <div [innerHTML]="myModal.getData()"></div>
     </ngx-smart-modal>
   `,
@@ -22,7 +24,11 @@ export class AppComponent implements OnInit {
 	width: number = 100;
   height: number = 100;
 
-  constructor(private ngxSmartModalService: NgxSmartModalService) {}
+  constructor(private ngxSmartModalService: NgxSmartModalService, private location: PlatformLocation) {
+    location.onPopState(() => {
+      this.ngxSmartModalService.getModal("myModal").close();
+    });
+  }
 
   close() {
     this.ngxSmartModalService.getModal("myModal").close();

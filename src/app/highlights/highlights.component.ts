@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class HighlightsComponent implements OnInit {
 
   images = [];
-  items = 21;
+  items = 65;
 
   constructor() {
     for(let i=0;i<this.items/3;i++) {
       let row = [];
-      for(let j=0;j<3;j++)
-        row.push(3*i+j+1);
+      for(let j=0;j<3 && 3*i+j<this.items;j++)
+        row.push({id: 3*i+j+1, show: false});
       this.images.push(row);
     }
     console.log(this.images);

@@ -2,7 +2,9 @@
   <h1>Highlights</h1>
   <div class="row" *ngFor="let row of images">
     <div class="col-md-4" *ngFor="let image of row">
-      <img src="assets/highlights/h ({{image}}).jpg">
+      <div (deferLoad)="image.show = true">
+        <img *ngIf="image.show" src="assets/highlights/h ({{image.id}}).jpg">
+      </div>
     </div>
   </div>
 </div>

@@ -57,6 +57,39 @@ a, a:hover{
   justify-content: space-around;
 }
 
+.result-div {
+  overflow: auto;
+}
+
+.content-centered {
+  text-align: center;
+
+  * {
+    text-align: center;
+  }
+}
+
+.button {
+  display: inline-block;
+  font-size: 1.5rem;
+  background-color: #ea2528;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.result-table {
+  min-width: 800px;
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px) {
   .icon-center {
     display: block;

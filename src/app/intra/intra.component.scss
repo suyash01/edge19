@@ -1,0 +1,27 @@
+@keyframes result {
+  from {color: white;}
+  to {color: #e62024;}
+}
+
+.results {
+  color: white;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  animation: result 2s infinite alternate;
+  cursor: pointer;
+}
+
+@media (min-width: 768px){
+  @mixin deg($d, $r) {
+    transform: rotate($d) translate($r) rotate(-$d);
+  }
+  
+  .deg270 {
+    @include deg(-270deg, 38vh);
+  }
+
+  .results {
+    margin-top: 55vh;
+  }
+}
