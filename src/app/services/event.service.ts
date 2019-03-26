@@ -797,30 +797,9 @@ export class EventService {
               <li>Runtime max 30mins.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Rohit Deb - 9038220806</p>
+            <p>Rohit Deb - 7044081409</p>
             <p>Indrajit Dhara - 9804179878</p>`
         },
-        // {
-        //   id: "insta-edit",
-        //   name: "Insta-Edit",
-        //   icon: "events/infocus/insta-edit.svg",
-        //   class: "deg30",
-        //   desc: `<h1>Insta-Edit</h1>
-        //     <p>INSTA-EDIT is an editing competition where your creative mind blends perfectly with your Photoshop skills to create your masterpiece and who knows, you might bag the first prize</p>
-        //     <h3>Rules</h3>
-        //     <ul>
-        //       <li>Live editing of a given picture.</li>
-        //       <li>Incoming editing submissions shall be screened for originality, authenticity & maintaining regulation issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libelous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Geekonix recognizes "You". But the author of the edited image does not retain full ownership of the edited image. Geekonix holds the copyright of the photo. Further reproductions or misuses of the given picture will be counted as a criminal offence and stringent actions will be undertaken.</li>
-        //       <li>5 photos will be given to you. You can choose to edit any one photo of your wish.</li>
-        //       <li>No manipulation of background is allowed.</li>
-        //       <li>You will be given 1.5 hours to showcase your editing skills.</li>
-        //       <li>Participants are requested to bring their own laptop.</li>
-        //       <li>Participants who will be editing in mobile, can choose any app of their choices.</li>
-        //     </ul>
-        //     <h3>Contact</h3>
-        //     <p>Karan Paul - 8906833180</p>
-        //     <p>Rohit Deb - 9038220806</p>`
-        // },
         {
           id: "insta-click",
           name: "Insta-Click",
@@ -857,7 +836,7 @@ export class EventService {
               <li>Cropping up to 15% is allowed maintaining aspect ratio.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Rohit Deb - 9038220806</p>
+            <p>Rohit Deb - 7044081409</p>
             <p>Karan Paul - 8906833180</p>`
         },
         {
@@ -874,7 +853,7 @@ export class EventService {
               <li>Run time – 25 minutes is the maximum time period, which will be provided for each film screening. Shorter films can get extra points according to judge’s willing. Statutory warnings should be included as per the needs. **English subtitles should be included.</li>
             </ul>
             <h3>Contact</h3>
-            <p>Rohit Deb - 9038220806</p>
+            <p>Rohit Deb - 7044081409</p>
             <p>Karan Paul - 8906833180</p>`
         }
       ]
@@ -1054,21 +1033,36 @@ export class EventService {
             <p>Young entrepreneurs with a prudent business plan can present their ideas and stand a chance to get rewarded handsomely. Since the advent of time humans have relied on their selling skills to survive.If you think you can dazzle the audience by your impromptu thinking and wit, then come and be a part of the most challenging competition of Edge, which will provide you with the perfect platform to show your magic.</p>
             <h3>Rules</h3>
             <ul>
-              <li>Team can consist of maximum of 3 members.</li>
+              <li>The competition is open for teams comprising of undergraduate and postgraduate students.</li>
+              <li>Team can consist of a maximum of 3 members. Only one of the team member should register as Team Leader.</li>
+              <li>More than 1 team can participate from a college.</li>
+              <li>One participant cannot be a part of more than one team.</li>
+              <li>No change of team structure is permitted after the team is registered.</li>
+              <li>A team can submit more than one business plan/idea after registration but in doing so, it must register separately for each submission. The same email-id and/or team name cannot be used for doing so.</li>
               <li>The judges will evaluate the presentations based on the following CRITERIA:</li>
-              <li>Background Study.</li>
-              <li>Originality in the research work.</li>
-              <li>Volume of the work carried out.</li>
-              <li>Novelty in thinking.</li>
-              <li>Oral presentation skill of the presenter.</li>
-              <li>Ability to answer questions at the end of the presentation.</li>
+              <ul>
+                <li>Background Study.</li>
+                <li>Originality in the research work.</li>
+                <li>Volume of the work carried out.</li>
+                <li>Novelty in thinking.</li>
+              </ul>
             </ul>
-            <h3>Round 1</h3>
-            <p>In this Round each team of 3 members will have to send their entry in a presentation/document by 5th April 2019 to 'edgemoneymatters@gmail.com'. The cover page should contain: Team Name & Member names along with address, e-mail and telephone number. The best entries will be asked to participate in the main event at EDGE 2019 at our campus</p>
-            <h3>Round 2</h3>
-            <p>In this Round the selected teams will be called to present their business idea to an open audience during Edge. Tentative duration is 10 min. of presentation followed by 5 minutes of Question & Answer.</p>
+            <h3>Round 1 (20th March-3rd April) - Online</h3>
+            <ul>
+              <li>Apply here with pitch deck - https://goo.gl/forms/T2R7OrHrnjVEPyVK2</li>
+              <li>Application Closes - 3rd April, 2019</li>
+              <li>Result declaration date: 4th April, 2019</li>
+              <li>B- Model Submission - Business Model Canvas Submission: 4th March,2019             </li>
+            </ul>
+            <h3>Round 2 (5-6 April) - Offline</h3>
+            <ul>
+              <li>Pitch Right(5th April)- 30 start-ups idea will be selected to pitch their ideas in a 180-second elevator ride; to win an investor's heart, you have to get your own "elevator pitch" ready.</li>
+              <li>Ultimate B-Model(6th April)- The format and other details about the oral presentation will be conveyed later.</li>
+            </ul>
             <h3>Contact</h3>
-            <p></p>`
+            <p>Rahul- 8240401969</p>
+            <p>Kaushik- 9521420618</p>
+            <p>Sumit- 9572683975</p>`
         },
         {
           id: "stockit",
@@ -1086,7 +1080,8 @@ export class EventService {
               <li>The Corporate Benefits as in Dividend, Bonus, Split, Mergers, De-Mergers etc are all also considered and applied.            </li>
             </ul>
             <h3>Contact</h3>
-            <p></p>`
+            <p>Ritwik - 8617808574</p>
+            <p>Sukarna- 7003972221</p>`
         },
         {
           id: "b-quiz",
@@ -1097,7 +1092,7 @@ export class EventService {
             <p>This is a team event where each team is quizzed on relevant business topics and the market scenario.</p>
             <h3>Rules</h3>
             <ul>
-              <li>Team can consist of maximum of 3 members (even solo participation accepted).</li>
+              <li>Team can consist of maximum of 2 members (even solo participation accepted).</li>
               <li>This quiz is open to anyone under 25 years of age.</li>
               <li>Cross college/school teams are allowed.</li>
               <li>Valid ID cards need to be produced at the time of on-spot registration.</li>
@@ -1106,9 +1101,11 @@ export class EventService {
               <li>The Prelims will be a set of 25 questions.</li>
               <li>The top 8 teams will make it to the finals.</li>
               <li>It is a BizTech quiz. The questions will be from the fields of Technology and Business both.</li>
+              <li>Apply here- https://goo.gl/forms/7aLVoY0eQxne2u7Q2 for participating in this event.</li>
             </ul>
             <h3>Contact</h3>
-            <p></p>`
+            <p>Kaushik- 9521420618</p>
+            <p>Sanmitra- 8910134356</p>`
         },
         {
           id: "addomedia",
@@ -1119,16 +1116,25 @@ export class EventService {
             <p>The idea of this event is to allow the players to explore their creativity as well as their marketing power. The Event is based on a marketing theme, participants will have to pick any product real or fictional of their choice and device an ad campaign to sell the said product.</p>
             <h3>Rules</h3>
             <ul>
-              <li>Team should consist of 3 members</li>
+              <li>Team should consist of max 3 members</li>
+              <li>More than 1 team can participate from a college.</li>
+              <li>One participant cannot be a part of more than one team.</li>
+              <li>No change of team structure is permitted after the team is registered.</li>
+              <li>A team can submit more than one marketing plan/idea after registration but in doing so, it must register separately for each submission. The same email-id and/or team name cannot be used for doing so.</li>
               <li>Content should be original, anyone found adopting any unfair means will be disqualified.</li>
               <li>40% weightage will be given to the look and design of the ad, and 60% to the idea behind the campaign.</li>
             </ul>
             <h3>Round 1</h3>
-            <p>In this round, each team of 3 members will have to send their entry in a presentation/document by 5th April 2019 to 'edgemoneymatters@gmail.com'. The cover page should contain: Team Name & Member names along with address, e-mail and telephone number. The best entries will be asked to participate in the main event at EDGE 2019 at our campus.</p>
+            <ul>
+              <li>Apply here with marketing deck before 5th April- https://goo.gl/forms/DFwyU8WWqCXGr09J2</li>
+              <li>Marketing deck should contain- Team Name, Contacts & Member.</li>
+              <li>The  best entries will be asked to participate in the main event at EDGE 2019.</li>
+            </ul>
             <h3>Round 2</h3>
             <p>In this round, one has to prepare a video or a ppt describing their proposed ad campaign, their brand positioning and target audience.</p>
             <h3>Contact</h3>
-            <p></p>`
+            <p>Prince- 9038610317</p>
+            <p>Poulami- 9002215596</p>`
         }
       ]
     },
@@ -1401,17 +1407,31 @@ export class EventService {
           id: 'cp',
           name: 'Crowd Pitch',
           icon: 'events/ciic/crowd-pitch.svg',
-          class: 'deg30',
+          class: 'deg0',
           desc: `<h1>Crowd Pitch</h1>
-                <p>TBU</p>`
-        },
-        {
-          id: 'pr',
-          name: 'Pitch Right',
-          icon: 'events/ciic/pitch-right.svg',
-          class: 'deg330',
-          desc: `<h1>Pitch Right</h1>
-                <p>TBU</p>`
+                <p>It is a crowdfunding competition for creative projects and ideas. It is a platform where you can present your ideas to a connected audience and to the panellists from the crowdfunding industry. The motivated creators and innovators can access funding and support beyond the “official” channels. So if you have the aspirations and passion to create, this is the place to make great things possible.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>The idea must be unique otherwise it will lead to the disqualification of the participants.</li>
+                  <li>Showing any type of undisciplinary activity will lead to the disqualification.</li>
+                  <li>Anyone in a team of two members can participate. Only One of the team member should be registered as Team Leader. </li>
+                  <li>More than 1 team can participate from a college. </li>
+                  <li>One participant cannot be a part of more than one team. </li>
+                  <li>No change of team structure is permitted after the team is registered. </li>
+                  <li>A team can submit more than one idea after registration but in doing so, it must register separately for each submission. The same email-id and/or team name cannot be used for doing so.                </li>
+                </ul>
+                <h3>Round 1</h3>
+                <ul>
+                  <li>Apply here with pitch deck before 3rd April- https://goo.gl/forms/WA8NTjYMPjFtkx7s1</li>
+                  <li>Submission should be made within the deadline.</li>
+                  <li>The best entries will be asked to present their idea infront of enormous crowds in the main event at EDGE 2019.</li>
+                </ul>
+                <h3>Round 2</h3>
+                <p>In this Round the selected teams will be called to present their business idea to an open audience during Edge 2019. Tentative duration is 4 mins for each team.</p>
+                <h3>Contact</h3>
+                <p>Prince- 9038610317</p>
+                <p>Sumit- 9572683975</p>
+                <p>Ritwik - 8617808574</p>`
         },
         {
           id: 'tm',
@@ -1419,7 +1439,18 @@ export class EventService {
           icon: 'events/ciic/troll-marketting.svg',
           class: 'deg180',
           desc: `<h1>Troll Marketting</h1>
-                <p>TBU</p>`
+                <p>It is an online facebook event. This fun event requires you to create novel memes on the products provided on facebook page of CIIC. We will post your memes on our facebook page. The contestant whose meme will be more relevant and liked by most will be the winner.</p>
+                <h3>Rules</h3>
+                <ul>
+                  <li>Participants must not use pictures and comments which hurt others sentiment.</li>
+                  <li>A participant can post only one meme on every products.</li>
+                  <li>Any individual can participate.</li>
+                </ul>
+                <h3>Round 1</h3>
+                <p>Participants should email their meme or message us on fb along with the following details- Name, College, Stream & Academic Year in between 25th March-4th April 2019 to our email id ciic.tisl@gmail.com or our fb pages & we will post on our facebook page www.facebook.com/ciictisl.</p>
+                <h3>Contact</h3>
+                <p>Poulami- 9002215596</p>
+                <p>Tarkeshwar - 9088478414</p>`
         }
       ]
     }

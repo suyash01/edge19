@@ -100,11 +100,15 @@ export class HomeService {
     id: 'deeds',
     desc: `<h1>Edge Deeds</h1>
           <h2>Phase 1 - Friend In Need<br><small>20th - 24th August, 2018</small></h2>
-          <p>During the first phase of EDGE DEEDS the Geekonix family extended their helping hand towards the unfortunate people stricken by the floods in Kerala. An amount exceeding INR 50,000 was donated towards the betterment of those affected by the floods. The noble initiative saw participation from over 350 kindred souls.</p>
-          <h2>Phase 2 - Visit A Friend<br><small>4th week of February, 2019</small></h2>
-          <p>True kindness lies within the act of giving' and the greatest gift you can give is by lending a helping hand. So join us in the second phase of EDGE Deeds where we help those who have been unfortunate enough to be left in this world to fend for themselves without a hand to protect and guide them. So we will visit an orphanage to engage and support them in this tumultuous journey of life.</p>
-          <h2>Phase 3 - Walkathon: March Against Alcohol and Drug Abuse<br><small>23rd March, 2019</small></h2>
-          <p>A nation can prosper only when it's youth is free from any shackles and can pursue their dreams. The strongest opposition to this is the ever-increasing substance abuse in today's youth. Geekonix believes that spreading awareness about the same is quintessential to help the society abstain from such vices. With this aim in view, team Geekonix is organizing a Walkathon- A walk to let the society know the right from wrong, a walk to keep ourselves ​away from such vices.</p>`
+          <p>They always said it is better to "prevent and prepare" rather than "repent and repair". We did not prepare; nor could we prevent. EDGE came forward to try to repair the situation that the thousands in Kerala were facing due to the floods. We at Geekonix believe that the way to build large is by starting small. Keeping that in mind we launched EDGE DEEDS Phase One: FRIEND IN NEED</p>
+          <p>The GEEKONIX Family donated an amount of INR 10000 towards the cause to bring relief for our fellow human beings whose framework of life has been washed away and encouraged others to help in the time of need.</p>
+          <h2>Phase 2 - Collection Drive<br><small>25th February - 1st March, 2019</small></h2>
+          <p>The collection drive mainly focuses on “Reduce, Reuse and Recycle”.</p>
+          <p>We will be collecting plastic waste (old pens, food packets) and hence sending it for recycling to the respective factories. Besides that, we will also collect books, food packets and old clothes to  the destitute section of the society.</p>
+          <h2>Phase 3 - EDGE Walkathon: March Against Alcohol and Drug Abuse<br><small>16th March, 2019</small></h2>
+          <p>A nation can prosper only when it's youth is free from any shackles and can pursue their dreams. The strongest opposition to this is the ever-increasing substance abuse in today's youth. Geekonix believes that spreading awareness about the same is quintessential to help the society abstain from such vices. With this aim in view, team Geekonix is organizing a Walkathon- A walk to let the society know the right from wrong, a walk to keep ourselves ​away from such vices.</p>
+          <h2>Phase 4 - Visit A Friend<br><small>24th March, 2019</small></h2>
+          <p>True kindness lies within the act of giving' and the greatest gift you can give is by lending a helping hand. So join us in the second phase of EDGE Deeds where we help those who have been unfortunate enough to be left in this world to fend for themselves without a hand to protect and guide them. So we will visit an orphanage to engage and support them in this tumultuous journey of life.</p>`
   }]
 
   constructor() { }
