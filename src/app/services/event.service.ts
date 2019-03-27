@@ -602,16 +602,16 @@ export class EventService {
                 <p>(Valve official versions of the maps in the Active Duty Map Group)</p>
                 <ul>
                   <li>De_cache</li>
-                  <li>De_cbble</li>
                   <li>De_inferno</li>
                   <li>De_nuke</li>
+                  <li>De_dust2</li>
                   <li>De_mirage</li>
                   <li>De_train</li>
                   <li>De_overpass</li>                
                 </ul>
                 <h3>Map Selection</h3>
                 <ul>
-                  <li>A coin flip decides which is Team </li>
+                  <li>A coin flip decides which is Team B</li>
                   <li>Best of one: Ban A - Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
                   <li>Best of three: Ban B - Ban A - Pick B - Pick A - Ban A - Ban B - Last map remaining is the tie breaker</li>
                   <li>Side choice (CT/T) for every map is decided by a knife round.</li>
@@ -626,9 +626,13 @@ export class EventService {
                   <li>Overtime Start Money - $10,000</li>
                   <li>Overtime Side Selection - In overtime, teams first play the side which they last played in regulation</li>
                 </ul>
-                <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable)</p>
+                <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable).</p>
+                <p>Team CFGs should be mailed to us on cybercrusade.cc@gmail.com</p>
+                <p>We won't allow any type of Download or access to Internet.</p>
+                <p>If you need to install any gaming gear drivers, bring the particular software in a pen drive.</p>
                 <h3>Contact</h3>
-                <p>Swastik Sanaddar Chowdhury - 9874436481</p>`
+                <p>Ahana Sarkar - 6290422296</p>
+                <p>Upayan Biswas - 9874979491</p>`
         },
         {
           id: "csgo-col",
@@ -641,24 +645,23 @@ export class EventService {
                 <p>(Valve official versions of the maps in the Active Duty Map Group)</p>
                 <ul>
                   <li>De_cache</li>
-                  <li>De_cbble</li>
+                  <li>De_dust2</li>
                   <li>De_inferno</li>
-                  <li>De_nuke</li>
                   <li>De_mirage</li>
                   <li>De_train</li>
-                  <li>De_overpass</li>                
+                  <li>De_overpass</li>
+                  <li>De_nuke</li>
                 </ul>
                 <h3>Map Selection</h3>
                 <ul>
-                  <li>A coin flip decides which is Team </li>
+                  <li>A coin flip decides which is Team B</li>
                   <li>Best of one: Ban A - Ban B - Ban A - Ban B - Ban A - Ban B - Last map is the map to be played</li>
                   <li>Best of three: Ban B - Ban A - Pick B - Pick A - Ban A - Ban B - Last map remaining is the tie breaker</li>
                   <li>Side choice (CT/T) for every map is decided by a knife round.</li>
                 </ul>
                 <h3>Rules</h3>
                 <ul>
-                  <li>All players in a team must be from the same college.</li>
-                  <li>All participants must bring their college/school id card.</li>
+                  <li>All the players in a team must e a part of any educational institution and provide identity card on the match day.</li>
                   <li>Freeze Time - 15 seconds</li>
                   <li>Round Time - One minute and 55 seconds</li>
                   <li>Regulation Start Money - $800</li>
@@ -669,7 +672,8 @@ export class EventService {
                 </ul>
                 <p>(NOTE: In case of deadlocks, the admin’s decision is final and irrevocable)</p>
                 <h3>Contact</h3>
-                <p>Ahana Sarkar - 9674362280</p>`
+                <p>Swastik Samaddar Chowdhury - 9874436481</p>
+                <p>Deepanjan Sen - 8240106266</p>`
         },
         {
           id: "fifa-pro",
@@ -693,7 +697,8 @@ export class EventService {
                   <li>The admin’s decision, in any case, is final and irrevocable</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>Arkadeep Dey - 9051822311</p>`
+                <p>ARKADEEP DEY: 90518 22311</p>
+                <p>SUSMIT GHOSH: 79803 69954</p>`
         },
         {
           id: "fifa-col",
@@ -718,7 +723,8 @@ export class EventService {
                   <li>The admin’s decision, in any case, is final and irrevocable</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>Arkadeep Dey - 9051822311</p>`
+                <p>ARKADEEP DEY: 90518 22311</p>
+                <p>SUSMIT GHOSH: 79803 69954</p>`
         },
         {
           id: "pubg",
@@ -729,7 +735,7 @@ export class EventService {
                 <p>Lost your beloved and became a sinner? then you gotta be hungry for a chicken dinner.</p>
                 <h3>Rules</h3>
                 <ul>
-                  <li>The game mode will be TPP - DUO</li>
+                  <li>The game mode will be TPP - DUO and TPP - SQUAD</li>
                   <li>The map for all three match-modes will be Erangel.</li>
                   <li>Use of Aimbots, Wall Hacks, Speedhacks, or any form of unfair advantage-abuse (Teaming up with opponent) is strictly forbidden. All players will be closely monitored and if anyone is caught cheating, that player will be disqualified and banned from all tournaments organised by Cyber Crusade and EDGE.</li>
                   <li>A fixed timeframe will be provided for the players to join the match room, failing to do so will result in disqualification for the match.</li>
@@ -739,8 +745,8 @@ export class EventService {
                   <li>The room referee's decisions will be final.</li>
                 </ul>
                 <h3>Contact</h3>
-                <p>ANIRBAN SUR : +91 89812 57401</p>
-                <p>SUBHAJIT KONAR : +91 94745 94123</p>`
+                <p>ANIRBAN SUR : 8981257401</p>
+                <p>SUBHAJIT KONAR : 9474594123</p>`
         },
         {
           id: "dota",
@@ -751,6 +757,7 @@ export class EventService {
                 <p>The most popular MOBA game in the world.Enter into battle with one of over a hundred DOTA heroes. Here there is always something new to discover.</p>
                 <h3>Rules</h3>
                 <ul>
+                  <li>Game used : DOTA 2 (Latest version of the game at the time of tournament)</li>
                   <li>Competition method: 5 versus 5</li>
                   <li>Game mode: Captain's Mode (CM)</li>
                   <li>Side and first ban will be determined by toss</li>
@@ -759,7 +766,7 @@ export class EventService {
                   <li>All competitors must be present 15 minutes prior to their scheduled match.</li>
                   <li>Players who are registered must be the ones to play.</li>
                   <li>If a reserve is needed, only the registered reserves will be allowed to play.</li>
-                  <li>Only two (2) reserves are allowed per team. They should be registered separately.</li>
+                  <li>Maximum of two (2) reserves are allowed per team. They should be registered separately.</li>
                   <li>No player is allowed to play for more than one team.</li>
                   <li>If any player disconnects during a match, the game will be paused instantly until the player has reconnected.</li>
                   <li>Other than above issues each team can only pause the game for not more than 3 minutes.</li>

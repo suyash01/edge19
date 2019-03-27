@@ -412,8 +412,8 @@ export class IntraEventService {
                 </ul>
                 <p>(NOTE: The admin’s decision, in any case, is final and irrevocable)</p>
                 <h3>Contacts</h3>
-                <p>ARKADEEP DEY : +91 90518 22311</p>
-                <p>SUSMIT GHOSH :+91 79803 69954</p>`
+                <p>ARKADEEP DEY: 90518 22311</p>
+                <p>SUSMIT GHOSH: 79803 69954</p>`
         },
         {
           id: "pubg",
