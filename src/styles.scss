@@ -21,6 +21,20 @@ a, a:hover{
   cursor: pointer;
 }
 
+.nsm-dialog {
+  max-width: 5000px;
+
+  .nsm-content {
+    background-color: rgba(26, 26, 26, .9);
+    color: #fff;
+  }
+}
+
+.nsm-dialog-btn-close {
+  color: #fff;
+  font-size: 2em;
+}
+
 .nsm-body * {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;

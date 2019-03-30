@@ -857,7 +857,7 @@ export class EventService {
             <ul>
               <li>The topic is open. So just give us the best of you.</li>
               <li>Incoming films shall be screened for originality, authenticity & copyright infringement issues. No entry should contain any infringing, threatening, false, misleading, abusive, harassing, *libellous, defamatory, vulgar, obscene, scandalous, inflammatory, pornographic or profane content. Judge's decision will be final to determine whether the content is inappropriate or not and accordingly your work might get disqualified.</li>
-              <li>Run time – 25 minutes is the maximum time period, which will be provided for each film screening. Shorter films can get extra points according to judge’s willing. Statutory warnings should be included as per the needs. **English subtitles should be included.</li>
+              <li>Run time – 30 minutes is the maximum time period, which will be provided for each film screening. Shorter films can get extra points according to judge’s willing. Statutory warnings should be included as per the needs. **English subtitles should be included.</li>
             </ul>
             <h3>Contact</h3>
             <p>Rohit Deb - 7044081409</p>
