@@ -92,7 +92,7 @@ export class HomeService {
           </ul>
           <p><a href="https://goo.gl/forms/R812DlOypjMBxR272">Click here to register</a></p>
           <h3>Contacts:</h3>
-          <p>Radhika Mohta : +91 9163981049</p>
+          <p>Radhika Mohta : +91 9330193646</p>
           <p>Amritaparna Pal : +91 9531733733</p>
           <p>Once you are selected as the CA, we shall notify you via mail.</p>`
   },
